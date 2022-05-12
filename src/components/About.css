@@ -1,0 +1,49 @@
+.About {
+    padding-left: 8rem;
+    padding-bottom: 6rem;
+}
+
+.abtHeader p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    color: #B90B0B;
+}
+
+.abtHeader h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+.abtHeader span {
+    color: #B90B0B;
+}
+
+.abtContent p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #2D2D2D;
+    font-size: 28px;
+    letter-spacing: 0;
+    padding-right: 51rem;
+}
+
+.abtContent p:hover {
+    color: #FFFFFF;
+}
+
+.abtContent span {
+    color: #2D2D2D;
+}
+
+.abtContent p:hover span {
+    color: #B90B0B;
+}

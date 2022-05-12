@@ -1,0 +1,131 @@
+
+.Timeline2 span {
+    color: #B90B0B;
+}
+
+.Timeline2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.timelineContainer2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0;
+}
+
+.timelineContainer2::after {
+    /* border: none; */
+  border-top: 1px dotted #f00;
+    background-color: #2D2D2D;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    top: calc(-23% - 12px);
+    width: 4px;
+    height: 105%;
+    /* border-top:1rem dashed #2D2D2D; */
+    /* border:1rem dashed #2D2D2D; */
+}
+
+.timelineItemContent2:nth-child(even) .circle2 {
+    background: #2D2D2D;
+    border: 6px solid #2D2D2D;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(15% - 10px);
+    right: 28rem;
+    width: 23px;
+    height: 23px;
+    z-index: 100;
+}
+
+.timelineItemContent2:nth-child(odd) .circle2 {
+    background: #2D2D2D;
+    border: 6px solid #2D2D2D;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(13% - 10px);
+    right: -2rem;
+    width: 23px;
+    height: 23px;
+    z-index: 100;
+}
+
+
+
+.timelineItemContent2 {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 26px;
+    position: relative;
+    width: 400px;
+    max-width: 70%;
+    margin: 15px 0;
+
+}
+
+.timelineItemContent2:nth-child(odd) {
+    margin-right: 30rem;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.timelineItemContent2:nth-child(even) {
+    margin-left: 30rem;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.timelineItemContent2:nth-child(odd) p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D2D2D;
+    margin-left: -2rem;
+    padding-left: -3rem;
+    margin-right: 2rem
+}
+
+.timelineItemContent2:nth-child(even) p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D2D2D;
+    padding-left: 2rem;
+    margin-right: -2rem;
+}
+
+.timelineItemContent2 p:hover {
+    color: #FFFFFF;
+}
+
+.timelineItemContent2:nth-child(odd) h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;    
+    padding: 0 2rem;
+    margin-left: -12rem;
+}
+
+.timelineItemContent2:nth-child(even) h5 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+    padding: 0 2rem;
+    margin-right: -10rem;
+}
