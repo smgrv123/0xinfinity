@@ -7,11 +7,26 @@
     margin-right: 10rem;
     margin-top: 5.5rem;
 }
-.Disc{
-    padding-left: 2rem;
-}
+
 .SocialMedia{
     margin-left: auto;
-    padding-top: 5rem;
+    padding-top: 1.5rem;
     margin-right: -45rem;
+}
+
+.Twit, .Disc{
+    color: #B3B3B3;
+    width: 3rem;
+    height: 10rem;
+    cursor: pointer;
+}
+.Twit:hover{
+    color: #55ACEE;
+}
+.Disc:hover{
+    color: #5865F2;
+}
+.Disc{
+    margin-left: 2.5rem;
+    margin-right: 2rem;
 }

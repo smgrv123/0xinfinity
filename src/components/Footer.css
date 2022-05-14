@@ -59,8 +59,27 @@ left: 1rem;
 .socialMedia{
     padding-top: 4rem;
 }
+.Discord{
+    margin-top: -2rem;
+}
+.Twi, .Dis{
+    color: #B3B3B3;
+    width: 3rem;
+    height: 10rem;
+    cursor: pointer;
+}
+.Dis:hover, .Discord a:hover{
+    color: #5865F2;
+}
+.Twi:hover, .Twitter a:hover{
+    color: #55ACEE;
+}
 .Twitter{
-    padding-top: 1rem;
+    margin-top: -5rem;
+}
+.Twitter svg, .Discord svg{
+    margin: 0;
+    padding-bottom: 2rem;
 }
 .Discord:hover{
     color: #5865F2;
