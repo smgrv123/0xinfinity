@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .Timeline2 span {
     color: #B90B0B;
@@ -19,17 +20,34 @@
 }
 
 .timelineContainer2::after {
-    /* border: none; */
-  border-top: 1px dotted #f00;
-    background-color: #2D2D2D;
+    position: absolute;
+    border-left: 6px dashed #2D2D2D;
     content: '';
     position: absolute;
     left: calc(50% - 2px);
     top: calc(-23% - 12px);
     width: 4px;
     height: 105%;
-    /* border-top:1rem dashed #2D2D2D; */
-    /* border:1rem dashed #2D2D2D; */
+}
+.timelineItemContent2:nth-child(even):before{
+    background-color: #2D2D2D;
+    content: '';
+    position: absolute;
+    left: calc(4.1% - 2px);
+    top: calc(10% - 12px);
+    width: 6px;
+    height: 28%;
+    transform: rotate(90deg);
+}
+.timelineItemContent2:nth-child(odd):before{
+    background-color: #2D2D2D;
+    content: '';
+    position: absolute;
+    left: calc(96.1% - 2px);
+    top: calc(8% - 12px);
+    width: 6px;
+    height: 28%;
+    transform: rotate(90deg);
 }
 
 .timelineItemContent2:nth-child(even) .circle2 {
@@ -82,7 +100,7 @@
 }
 
 .timelineItemContent2:nth-child(odd) p {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -94,7 +112,7 @@
 }
 
 .timelineItemContent2:nth-child(even) p {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -109,7 +127,7 @@
 }
 
 .timelineItemContent2:nth-child(odd) h5 {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -120,7 +138,7 @@
 }
 
 .timelineItemContent2:nth-child(even) h5 {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 28px;

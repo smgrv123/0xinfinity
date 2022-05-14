@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.Carousel div{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 7rem;
+    color: #000000;
+    
+    
+}
+.Carousel{
+    background: #2D2D2D;
+    width: 88rem;
+    margin-left: 3rem;
+    /* margin-top: -50rem; */
+    margin-top: 40rem;
+    margin-bottom: 15rem;
+    height: 8rem;
+}
+.Carousel:hover{
+    background: #B90B0B;
+    
+}

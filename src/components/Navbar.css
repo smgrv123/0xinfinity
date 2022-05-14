@@ -1,0 +1,17 @@
+.Navbar{
+    display: flex;
+    
+}
+.hamroute{
+    margin-left: auto;
+    margin-right: 10rem;
+    margin-top: 5.5rem;
+}
+.Disc{
+    padding-left: 2rem;
+}
+.SocialMedia{
+    margin-left: auto;
+    padding-top: 5rem;
+    margin-right: -45rem;
+}
