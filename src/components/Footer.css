@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.footerCont p{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 42px;
+letter-spacing: 0.2em;
+color: #B90B0B;
+}
+footer{
+    background: #2D2D2D;
+    height: 60vh;
+    width: 93.7vw;
+    /* margin-top: -1rem; */
+    margin-left: 2rem;
+}
+.footerCont h1{
+    font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footerCont span{
+    color: #B90B0B;
+}
+.footerCont a{
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+color: #B3B3B3;
+text-decoration: none;
+}
+.Discord a, .Twitter a{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+/* line-height: 30px; */
+color: #B3B3B3;
+text-decoration: none;
+position: relative;
+top: -1rem;
+left: 1rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-right: 8rem;
+}
+.socialMedia{
+    padding-top: 4rem;
+}
+.Twitter{
+    padding-top: 1rem;
+}
+.Discord:hover{
+    color: #5865F2;
+}
+.Discord img:hover{
+    background-image: url('../assets/blue-discord.png');
+}
