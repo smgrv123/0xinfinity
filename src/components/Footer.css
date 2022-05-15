@@ -59,12 +59,34 @@ left: 1rem;
 .socialMedia{
     padding-top: 4rem;
 }
-.Twitter{
-    padding-top: 1rem;
+.Discord{
+    margin-top: -2rem;
 }
-.Discord:hover{
+.Twi, .Dis{
+    color: #B3B3B3;
+    width: 3rem;
+    height: 10rem;
+    cursor: pointer;
+}
+.Dis:hover, .Discord a:hover{
     color: #5865F2;
 }
-.Discord img:hover{
-    background-image: url('../assets/blue-discord.png');
+.Twi:hover, .Twitter a:hover{
+    color: #55ACEE;
+}
+.Twitter{
+    margin-top: -5rem;
+}
+.Twitter svg, .Discord svg{
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+.Discord a:hover ,.Discord svg:hover{
+    fill: #5865F2;
+    color: #5865F2;
+}
+.Twitter a:hover ,.Twitter svg:hover{
+    fill: #55ACEE;
+    color: #55ACEE;
 }

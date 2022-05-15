@@ -28,15 +28,49 @@ line-height: 75px;
     /* margin-left: 6rem; */
 }
 .FAQQuestions .QuestOne{
-   padding: 3rem 4rem;
-   cursor: pointer;
-   padding-top: 1rem;
-   width: 27rem;
-   margin-top: 3rem;
-height: 1rem;
+    padding: 4rem 4rem;
+    cursor: pointer;
+    padding-top: 1rem;
+    width: 40rem;
+    margin-top: 3rem;
+    height: 0rem;
 
+}
+
+.AnsOne{
+    background-color: #2D2D2D;
+    padding: 20px 60px 60px;
+    gap: 20px;
+    padding-top: 2rem;
+    width: 34rem;
+    display: none;
+    margin-top: 3rem;
+margin-left: 4rem;
+left: 50rem;
+    position: absolute;
+}
+.AnsOne h1{
+    color: #B90B0B;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.AnsOne p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  
+    padding-top: 1rem;
+  
 }
 .QuestOne:hover{
     background-color: #B90B0B;
     transition: 0.5s;
+
+}
+.QuestOne:hover + .AnsOne{
+    display: block;
+    transition: 0.5s;
+}
+.SubFAQ{
+    display: flex;
 }
