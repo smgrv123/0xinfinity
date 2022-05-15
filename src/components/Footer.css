@@ -47,7 +47,7 @@ font-size: 20px;
 color: #B3B3B3;
 text-decoration: none;
 position: relative;
-top: -1rem;
+/* top: -1rem; */
 left: 1rem;
 }
 .footer{
@@ -62,9 +62,12 @@ left: 1rem;
 .Twitter{
     padding-top: 1rem;
 }
-.Discord:hover{
+
+.Discord a:hover ,.Discord svg:hover{
+    fill: #5865F2;
     color: #5865F2;
 }
-.Discord img:hover{
-    background-image: url('../assets/blue-discord.png');
+.Twitter a:hover ,.Twitter svg:hover{
+    fill: #55ACEE;
+    color: #55ACEE;
 }
