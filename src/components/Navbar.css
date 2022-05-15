@@ -15,13 +15,7 @@
     width: 3rem;
     cursor: pointer;
 }
-.Cross{
-    margin-right: 6rem;
-    height: 2rem;
-    margin-top: 5.5rem;
-    width: 3rem;
-    cursor: pointer;   
-}
+
 .Disc{
     padding-left: 2rem;
 }
@@ -50,7 +44,7 @@ cursor: pointer;
 .sideNav   {
     background: #2D2D2D;
     width: 25rem;
-    height: 45rem;
+    height: 100vh;
     position: absolute;
     right: 0rem;
     transform: translateX(0rem);
