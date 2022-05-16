@@ -79,7 +79,8 @@ left: 1rem;
 }
 .Twitter svg, .Discord svg{
     margin: 0;
-    padding-bottom: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 0rem;
 }
 
 .Discord a:hover ,.Discord svg:hover{
