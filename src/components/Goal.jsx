@@ -1,7 +1,7 @@
 import '../components/Goal.css'
 const Goal = () => {
     return ( 
-        <div className="Goal">
+        <div className="Goal" id='goal'>
             <div className="goalheader">
                 <p>WHERE ARE WE HEADED?</p>
                 <h1>Our G<span>o</span>al</h1>

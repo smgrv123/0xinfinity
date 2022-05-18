@@ -3,6 +3,13 @@
     display: flex;
     
 }
+a{
+  text-decoration: none;
+  color: #B3B3B3;
+}
+a:hover{
+  color: #B90B0B;
+}
 .hamroute{
     /* margin-left: auto;
     margin-right: 5rem;
@@ -57,9 +64,9 @@ cursor: pointer;
     
     
 }
-.sideNav li:hover, .sideNav li:focus {
+/* .sideNav li:hover, .sideNav li:focus {
     color: #B90B0B;
-  }
+  } */
   /* .Navbar::before{
     content: "";
     position: fixed;
@@ -71,3 +78,52 @@ cursor: pointer;
     z-index: 1000;
     transition: opacity .5s;
   } */
+
+  @media (max-width:991px){
+      .navLogo img{
+        width: 12rem;
+        margin-left: -3rem;
+        margin-top: -0.7rem;
+      }
+      .SocialMedia {
+        /* margin-left: auto; */
+        padding-top: 5.4rem;
+        margin-top: -4rem;
+        margin-right: 1.2rem;
+      }
+      .Twit{
+        margin-left: 3rem;
+      }
+      .Disc{
+        margin-left: 2rem;
+      }
+      .Disc svg{
+        margin-top: -4.5rem;
+        margin-left: 2rem;
+      }
+      
+      .Twit svg, .Disc svg{
+        width: 2.2rem;
+      }
+      .hamroute{
+        margin-right: 5rem;
+    height: 1.5rem;
+    margin-top: 2.3rem;
+    width: 2rem;
+      }
+      .sideNav{
+          width: 14rem;
+          right: -2rem;
+      }    
+      .sideNav ul {
+        padding: 2rem 1rem;
+      }
+      .sideNav li {
+        font-size: 18px;
+      }
+      .regBtn{
+        padding: 5px 28px;
+        font-size: 19px;
+        margin-top: 1.5rem;
+      }
+  }

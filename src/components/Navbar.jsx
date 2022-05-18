@@ -4,6 +4,7 @@ import './Navbar.css'
 import React, { useState, useEffect, useRef } from 'react';
 import { useOnClickOutside } from '../components/hook';
 
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const node = useRef();
@@ -50,19 +51,22 @@ const Navbar = () => {
 
           <div className="sideNav" ref={node}  data-aos="fade-left">
             <ul>
-              <li>Home</li>
-              <li>Who are we</li>
-              <li>Our goal</li>
+              <li><a href="#hea">Home</a></li>
+              <li><a href="#ab">Who are we</a></li>
+              <li><a href="#goal">Our goal</a></li>
             </ul>
             <ul>
-              <li>Infinity Pass</li>
+              <li><a href="#pass">Infinity Pass</a></li>
             </ul>
             <ul>
-              <li>Roadmap</li>
-              <li>FAQs</li>
-              <li>Get in touch</li>
+              <li><a href="#map">Roadmap</a></li>
+              <li><a href="#faq">FAQs</a></li>
+              <li><a href="#cont">Get in touch</a></li>
             </ul>
+
+           
           </div>
+
         </>
         // </div>
       };

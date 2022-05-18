@@ -14,12 +14,12 @@ const responsive = {
       items: 5.2
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 991 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
+      breakpoint: { max: 991, min: 0 },
+      items: 3.2
     }
   };
 const CarouselSec = () => {
@@ -32,12 +32,12 @@ const CarouselSec = () => {
        autoPlay={false}
        shouldResetAutoplay={false}
       >
-  <div>TAGLINE</div>
-  <div>TAGLINE</div>
-  <div>TAGLINE</div>
-  <div>TAGLINE</div>
-  <div>TAGLINE</div>
-  <div>TAGLINE</div>
+  <div className='unselectable'>TAGLINE</div>
+  <div  className='unselectable'>TAGLINE</div>
+  <div  className='unselectable'>TAGLINE</div>
+  <div  className='unselectable'>TAGLINE</div>
+  <div  className='unselectable'>TAGLINE</div>
+  <div  className='unselectable'>TAGLINE</div>
 </Carousel>
 </div>
      );

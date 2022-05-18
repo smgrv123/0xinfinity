@@ -36,7 +36,7 @@
     background-color: #B90B0B;
     content: '';
     position: absolute;
-    left: calc(50% - 2px);
+    left: calc(50.1% - 2px);
     top: calc(7% - 12px);
     width: 4px;
     height: 70%;
@@ -67,7 +67,7 @@
     border-radius: 50%;
     position: absolute;
     top: calc(12% - 10px);
-    right: 26.6rem;
+    right: 26.5rem;
     width: 32px;
     height: 32px;
     z-index: 100;

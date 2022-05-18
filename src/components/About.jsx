@@ -1,7 +1,7 @@
 import '../components/About.css'
 const About = () => {
     return (
-        <div className="About">
+        <div className="About" id='ab'>
             <div className="abtHeader">
                 <p>BEHIND OXINFINITY</p>
                 <h1>WH<span>O</span> ARE WE?</h1>

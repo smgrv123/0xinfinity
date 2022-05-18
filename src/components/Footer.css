@@ -54,7 +54,8 @@ left: 1rem;
     display: flex;
     justify-content: space-around;
     padding-top: 5rem;
-    padding-right: 8rem;
+    /* padding-right: 8rem; */
+    padding-right: 35rem;
 }
 .socialMedia{
     padding-top: 4rem;
