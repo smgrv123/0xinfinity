@@ -1,9 +1,9 @@
 import timelineData from './data';
 import TimelineItem from './Timelineitem';
-import '../components/Timeline.css';
+import './Timeline.css';
 const Timeline = () =>
     timelineData.length > 0 && (
-        <div className="Timeline">
+        <div className="Timeline" id='map'>
             <h1>R<span>o</span>ad map</h1>
             <div className="timelineContainer">
                 {timelineData.map((data, idx) => (

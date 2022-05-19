@@ -1,7 +1,7 @@
 import "./FAQ.css";
 const FAQ = () => {
   return (
-    <div className="FAQ">
+    <div className="FAQ" id="faq">
       <div className="FAQHeadings">
         <p>FAQs</p>
         <h1>

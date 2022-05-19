@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Carousel div {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 8rem;
+    color: #000000;
+
+
+}
+
+.Carousel {
+    background: #2D2D2D;
+    margin-top: 40rem;
+    margin-bottom: 15rem;
+    height: 8rem;
+}
+
+.Carousel:hover {
+    background: #B90B0B;
+}
+
+.unselectable {
+    margin-left: 1rem;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+@media (max-width:991px) {
+    .Carousel {
+        background: #2D2D2D;
+        margin-top: 7rem;
+        margin-right: -2rem;
+        height: 4rem;
+    }
+
+    .Carousel div {
+        font-size: 18px;
+        line-height: 7rem;
+        margin-top: -1.5rem;
+    }
+}

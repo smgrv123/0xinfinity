@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.Navbar {
+  display: flex;
+
+}
+
+a {
+  text-decoration: none;
+  color: #B3B3B3;
+}
+
+a:hover {
+  color: #B90B0B;
+}
+
+.hamroute {
+  margin-right: 6rem;
+  height: 2rem;
+  margin-top: 5.5rem;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.Disc {
+  padding-left: 2rem;
+}
+
+.SocialMedia {
+  margin-left: auto;
+  padding-top: 5rem;
+  margin-right: 3rem;
+}
+
+.Disc svg:hover {
+  fill: #5865F2;
+}
+
+.Twit svg:hover {
+  fill: #55ACEE;
+}
+
+.sideNav li {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 50px;
+  color: #B3B3B3;
+  cursor: pointer;
+}
+
+.sideNav {
+  background: #2D2D2D;
+  width: 25rem;
+  height: 100vh;
+  position: absolute;
+  right: 0rem;
+  transform: translateX(0rem);
+  transition: transform 0.5s
+}
+
+.sideNav ul {
+  padding: 3rem 5rem;
+
+
+}
+
+/* .sideNav li:hover, .sideNav li:focus {
+    color: #B90B0B;
+  } */
+/* .Navbar::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1000;
+    transition: opacity .5s;
+  } */
+
+@media (max-width:991px) {
+  .navLogo img {
+    width: 12rem;
+    margin-left: -3rem;
+    margin-top: -0.7rem;
+  }
+
+  .SocialMedia {
+    /* margin-left: auto; */
+    padding-top: 5.4rem;
+    margin-top: -4rem;
+    margin-right: 1.2rem;
+  }
+
+  .Twit {
+    margin-left: 5.5rem;
+  }
+
+  .Disc {
+    margin-left: 4rem;
+  }
+
+  .Disc svg {
+    margin-top: -4.5rem;
+    margin-left: 2rem;
+  }
+
+  .Twit svg,
+  .Disc svg {
+    width: 1.8rem;
+  }
+
+  .hamroute {
+    margin-right: 2rem;
+    height: 1.3rem;
+    margin-top: 2.5rem;
+    width: 1.8rem;
+  }
+
+  .sideNav {
+    width: 14.7rem;
+    right: -3rem;
+    z-index: 1;
+  }
+
+  .sideNav ul {
+    padding: 2rem 1rem;
+  }
+
+  .sideNav li {
+    font-size: 18px;
+  }
+
+  .regBtn {
+    padding: 5px 28px;
+    font-size: 19px;
+    margin-top: 1.5rem;
+  }
+}

@@ -1,33 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-.FAQ{
+
+.FAQ {
     margin-top: 15rem;
     padding: 1rem 8rem;
     padding-bottom: 25rem;
 }
-.FAQHeadings span{
+
+.FAQHeadings span {
     color: #B90B0B;
 }
-.FAQHeadings h1{
-color: #FFFFFF;
-font-size: 64px;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-line-height: 75px;
+
+.FAQHeadings h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 75px;
 }
-.FAQHeadings p{
+
+.FAQHeadings p {
     color: #B90B0B;
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
 }
-.QuestOne p{
+
+.QuestOne p {
     color: #FFFFFF;
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
 }
-.FAQQuestions{
+
+.FAQQuestions {
     margin-top: 6rem;
     /* margin-left: 6rem; */
 }
-.FAQQuestions .QuestOne{
+
+.FAQQuestions .QuestOne {
     padding: 4rem 4rem;
     cursor: pointer;
     padding-top: 1rem;
@@ -37,7 +44,7 @@ line-height: 75px;
 
 }
 
-.AnsOne{
+.AnsOne {
     background-color: #2D2D2D;
     padding: 20px 60px 60px;
     gap: 20px;
@@ -45,32 +52,37 @@ line-height: 75px;
     width: 34rem;
     display: none;
     margin-top: 3rem;
-margin-left: 4rem;
-left: 50rem;
+    margin-left: 4rem;
+    left: 50rem;
     position: absolute;
 }
-.AnsOne h1{
+
+.AnsOne h1 {
     color: #B90B0B;
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
 }
-.AnsOne p{
+
+.AnsOne p {
     color: #FFFFFF;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-  
+
     padding-top: 1rem;
-  
+
 }
-.QuestOne:hover{
+
+.QuestOne:hover {
     background-color: #B90B0B;
     transition: 0.5s;
 
 }
-.QuestOne:hover + .AnsOne{
+
+.QuestOne:hover+.AnsOne {
     display: block;
     transition: 0.5s;
 }
-.SubFAQ{
+
+.SubFAQ {
     display: flex;
 }

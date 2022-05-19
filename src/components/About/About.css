@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 .About {
     padding-left: 8rem;
     padding-bottom: 6rem;
 }
 
 .abtHeader p {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
@@ -15,7 +16,7 @@
 }
 
 .abtHeader h1 {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -29,7 +30,7 @@
 }
 
 .abtContent p {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #2D2D2D;
@@ -48,4 +49,29 @@
 
 .abtContent p:hover span {
     color: #B90B0B;
+}
+
+@media (max-width:991px) {
+    .About {
+        padding-left: 2rem;
+    }
+
+    .abtHeader p {
+        font-size: 16px;
+    }
+
+    .abtHeader h1 {
+        font-size: 33px;
+        line-height: 26px;
+    }
+
+    .abtContent p {
+        font-size: 12px;
+        padding-right: 2rem;
+        color: #FFFFFF;
+    }
+
+    .abtContent span {
+        color: #FFFFFF;
+    }
 }
