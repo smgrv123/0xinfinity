@@ -1,4 +1,4 @@
-import '../components/About.css'
+import './About.css'
 const About = () => {
     return (
         <div className="About" id='ab'>

@@ -1,48 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-.Timeline h1 {
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 75px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.Timeline span {
+.Timeline2 span {
     color: #B90B0B;
 }
 
-.Timeline {
+.Timeline2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 2rem;
 }
 
-.timelineContainer {
+.timelineContainer2 {
     display: flex;
     flex-direction: column;
     position: relative;
     margin: 40px 0;
 }
 
-.timelineContainer::after {
-    background-color: #B90B0B;
+.timelineContainer2::after {
+    position: absolute;
+    border-left: 6px dashed #2D2D2D;
     content: '';
     position: absolute;
-    left: calc(50.1% - 2px);
-    top: calc(7% - 12px);
+    left: calc(50% - 2px);
+    top: calc(-23% - 12px);
     width: 4px;
-    height: 70%;
+    height: 105%;
 }
-.timelineItemContent:nth-child(odd):before{
-    background-color: #B90B0B;
+
+.timelineItemContent2:nth-child(even):before {
+    background-color: #2D2D2D;
     content: '';
     position: absolute;
     left: calc(1.1% - 2px);
@@ -51,31 +40,33 @@
     height: 28%;
     transform: rotate(90deg);
 }
-.timelineItemContent:nth-child(even):before{
-    background-color: #B90B0B;
+
+.timelineItemContent2:nth-child(odd):before {
+    background-color: #2D2D2D;
     content: '';
     position: absolute;
-    left: calc(98.1% - 2px);
-    top: calc(2% - 12px);
+    left: calc(97% - 2px);
+    top: calc(2.5% - 12px);
     width: 6px;
-    height: 28%;
+    height: 27%;
     transform: rotate(90deg);
 }
-.timelineItemContent:nth-child(odd) .circle {
-    background-color: #B90B0B;
-    border: 6px solid #B90B0B;
+
+.timelineItemContent2:nth-child(even) .circle2 {
+    background: #2D2D2D;
+    border: 6px solid #2D2D2D;
     border-radius: 50%;
     position: absolute;
     top: calc(12% - 10px);
-    right: 26.5rem;
+    right: 26.6rem;
     width: 32px;
     height: 32px;
     z-index: 100;
 }
 
-.timelineItemContent:nth-child(even) .circle {
-    background-color: #B90B0B;
-    border: 6px solid #B90B0B;
+.timelineItemContent2:nth-child(odd) .circle2 {
+    background: #2D2D2D;
+    border: 6px solid #2D2D2D;
     border-radius: 50%;
     position: absolute;
     top: calc(10% - 10px);
@@ -85,13 +76,9 @@
     z-index: 100;
 }
 
-.timelineItemContent:nth-child(3) .circle {
-    background-color: black;
-    border: 6px solid #B90B0B;
 
-}
 
-.timelineItemContent {
+.timelineItemContent2 {
     display: flex;
     flex-direction: column;
     padding: 16px 26px;
@@ -102,20 +89,20 @@
 
 }
 
-.timelineItemContent:nth-child(even) {
+.timelineItemContent2:nth-child(odd) {
     margin-right: 30rem;
     text-align: right;
     align-items: flex-end;
 }
 
-.timelineItemContent:nth-child(odd) {
+.timelineItemContent2:nth-child(even) {
     margin-left: 30rem;
     text-align: left;
     align-items: flex-start;
 }
 
-.timelineItemContent:nth-child(even) p {
-    font-family: 'Poppins',sans-serif;
+.timelineItemContent2:nth-child(odd) p {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -126,8 +113,8 @@
     margin-right: 2rem
 }
 
-.timelineItemContent:nth-child(odd) p {
-    font-family: 'Poppins',sans-serif;
+.timelineItemContent2:nth-child(even) p {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -137,31 +124,28 @@
     margin-right: -2rem;
 }
 
-.timelineItemContent p:hover {
+.timelineItemContent2 p:hover {
     color: #FFFFFF;
 }
 
-.timelineItemContent:nth-child(even) h5 {
-    font-family: 'Poppins',sans-serif;
+.timelineItemContent2:nth-child(odd) h5 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 42px;
-    color: #B90B0B;
+    color: #FFFFFF;
     padding: 0 2rem;
     margin-left: -12rem;
 }
 
-.timelineItemContent:nth-child(odd) h5 {
-    font-family: 'Poppins',sans-serif;
+.timelineItemContent2:nth-child(even) h5 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 42px;
-    color: #B90B0B;
+    color: #FFFFFF;
     padding: 0 2rem;
-}
-.timelineItemContent:nth-child(3) h5 {
-    padding: 0 0rem;
-    margin-left: 2rem;
+    margin-right: -10rem;
 }

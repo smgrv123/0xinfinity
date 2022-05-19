@@ -1,6 +1,6 @@
-import '../components/Goal.css'
+import './Goal.css';
 const Goal = () => {
-    return ( 
+    return (
         <div className="Goal" id='goal'>
             <div className="goalheader">
                 <p>WHERE ARE WE HEADED?</p>
@@ -10,7 +10,7 @@ const Goal = () => {
                 <p>Our aim is to empower creators and NFT investors alike, by making Web3 more accessible and democratic.</p>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default Goal;

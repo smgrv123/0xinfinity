@@ -1,4 +1,4 @@
-import '../components/Timeline.css'
+import './Timeline.css'
 const TimelineItem = ({ data }) => (
     <div className="timelineItemContent">
         <h5>{data.title}</h5>

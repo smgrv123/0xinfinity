@@ -1,6 +1,6 @@
 import timelineData from './data';
 import TimelineItem from './Timelineitem';
-import '../components/Timeline.css';
+import './Timeline.css';
 const Timeline = () =>
     timelineData.length > 0 && (
         <div className="Timeline" id='map'>

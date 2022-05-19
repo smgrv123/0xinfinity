@@ -1,9 +1,7 @@
 // import React from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' 
-import '../components/Footer.css';
-// import Discord from '../assets/discord.png';
-// import Twitter from '../assets/twitter.png';
+import './Footer.css';
 const Footer = () => {
     return (
         <footer id='cont'>
