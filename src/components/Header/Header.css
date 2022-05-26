@@ -52,7 +52,6 @@
     margin-left: -45rem;
 }
 
-
 @media (max-width:991px) {
     .Header h1 {
         color: #FFFFFF;
@@ -62,4 +61,14 @@
     .Header p {
         font-size: 18px;
     }
+    .Header{
+        margin-top: 11rem;
+    }
+   
+.Headerbg {
+    margin-top: 21rem;
+    margin-left: -5rem;
+    width: 9rem;
+    transform: rotate(65deg);
+}
 }

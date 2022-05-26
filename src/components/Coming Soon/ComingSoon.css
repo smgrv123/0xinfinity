@@ -34,3 +34,20 @@
     padding-left: 2rem;
     opacity: 0.45;
 }
+@media (max-width:991px) {
+.ComingSoon p {
+    font-size: 20px;
+    top: 0rem;
+}
+.ComingSoon h1 {
+    font-size: 36px;
+    line-height: 40px;
+    top: -1rem;
+}
+.ComingSoon img {
+    padding-left: 0;
+    opacity: 1;
+    width: 25rem;
+}
+}
+

@@ -149,3 +149,92 @@
     padding: 0 2rem;
     margin-right: -10rem;
 }
+
+@media (max-width:991px) {
+ 
+.timelineContainer2::after {
+    top: calc(-18% - 12px);
+    height: 96%;
+}
+.timelineItemContent2:nth-child(odd) p{
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.timelineItemContent2:nth-child(odd):before {
+    height: 55%;
+    margin-left: -5rem;
+    top: -0.8rem;
+    width: 2px;
+
+
+}
+.timelineItemContent2:nth-child(even) {
+    margin-left: 29rem;
+
+}
+.timelineItemContent2:nth-child(odd) .circle2 {
+    top: calc(18% - 10px);
+    left: 20.7rem;
+    height: 1.5rem;
+    width: 1.5re;
+    width: 1.5rem;
+}
+.timelineItemContent2:nth-child(odd) h5, .timelineItemContent2:nth-child(even) h5 {
+    font-size: 20px;
+}
+.timelineItemContent2:nth-child(even):before {
+    left: calc(91.1% - 2px);
+    top: calc(-5% - 12px);
+    height: 48%;
+    width: 2px;
+
+}
+.timelineItemContent2:nth-child(even) .circle2 {
+    right: -1.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.timelineContainer2::after {
+    height: 100%;
+    margin-left: 10.4rem;
+    margin-top: -5rem;
+}
+.timelineItemContent2:nth-child(odd) h5 {
+    text-align: start;
+    margin-right: 7.2rem;
+    font-size: 20px;
+    font-weight: 100;
+}
+.timelineItemContent2:nth-child(odd) p {
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    /* padding-left: 4.5rem; */
+    text-align: start;
+    margin-right: 4rem;
+    
+    padding-right: 5rem;
+
+}
+.timelineItemContent2:nth-child(even) h5 {
+    margin-right: -1rem;
+    line-height: 35px;
+}
+.timelineItemContent2:nth-child(odd) {
+    margin-right: 30rem;
+    text-align: right;
+    align-items: flex-end;
+    margin-left: 33rem;
+}
+
+
+
+.timelineItemContent2:nth-child(even) p {
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-left: 2rem;
+    margin-right: 4rem;
+}
+}
