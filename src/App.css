@@ -5,7 +5,7 @@
 
 body {
   background: #000000;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 main{
   overflow: hidden;
