@@ -35,19 +35,30 @@
     opacity: 0.45;
 }
 @media (max-width:991px) {
+    .ComingSoon{
+        text-align: center;
+    }
 .ComingSoon p {
     font-size: 20px;
     top: 0rem;
+    margin-top: 10rem;
 }
 .ComingSoon h1 {
     font-size: 36px;
     line-height: 40px;
-    top: -1rem;
+
+    margin-left: 1.8rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+
+    position: initial;
+
 }
 .ComingSoon img {
     padding-left: 0;
     opacity: 1;
-    width: 25rem;
+    width: -webkit-fill-available;
 }
 }
 
