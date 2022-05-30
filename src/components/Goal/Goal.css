@@ -51,6 +51,7 @@
 @media (max-width:991px) {
     .Goal {
         padding-right: 1rem;
+        padding-bottom: 8rem;
     }
 
     .goalheader p {

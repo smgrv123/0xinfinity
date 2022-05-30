@@ -86,3 +86,54 @@
 .SubFAQ {
     display: flex;
 }
+@media(max-width:991px){
+    .FAQ{
+        padding: 0;
+        margin-bottom: 5rem;
+    }
+    .FAQHeadings{
+        margin-left: 1.5rem;
+    }
+    .FAQHeadings h1{
+        font-size: 36px;
+
+    }
+    .FAQHeadings p{
+        font-size: 20px;
+    }
+    .FAQQuestions{
+        margin-top: 0;
+    }
+    .SubFAQ{
+        display: block;
+    }
+    .AnsOne{
+        position: initial;
+        margin-left: 0;
+        display: block;
+        padding: 0px 22px 4px;
+        margin-left: 1.5rem;
+        width: 20rem;
+        border-radius: 30px;
+    }
+    .AnsOne h1{
+        display: none;
+    }
+    .AnsOne p{
+        font-size: 12px;
+    }
+    .QuestOne p{
+        font-size: 14px;
+    }
+    .FAQQuestions .QuestOne {
+        padding: 2rem 2rem;
+        cursor: pointer;
+        padding-top: 0.8rem;
+        width: 18rem;
+        margin-top: 4rem;
+        margin-left: 5rem;
+        height: 0rem;
+        background: #B90B0B;
+        border-radius: 30px;
+    }
+}

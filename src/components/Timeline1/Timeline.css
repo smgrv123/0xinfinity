@@ -57,8 +57,8 @@
     background-color: #B90B0B;
     content: '';
     position: absolute;
-    left: calc(98.1% - 2px);
-    top: calc(2% - 12px);
+    left: calc(100.1% - 2px);
+    top: calc(1% - 12px);
     width: 6px;
     height: 28%;
     transform: rotate(90deg);
@@ -82,7 +82,7 @@
     border-radius: 50%;
     position: absolute;
     top: calc(10% - 10px);
-    right: -3.5rem;
+    right: -4.5rem;
     width: 32px;
     height: 32px;
     z-index: 100;
@@ -154,6 +154,13 @@
     padding: 0 2rem;
     margin-left: -12rem;
 }
+.timelineItemContent:nth-child(even) {
+    margin-right: 25rem;
+    text-align: right;
+    align-items: flex-end;
+    margin-left: -1rem;
+}
+
 
 .timelineItemContent:nth-child(odd) h5 {
     font-family: 'Poppins', sans-serif;
@@ -168,4 +175,80 @@
 .timelineItemContent:nth-child(3) h5 {
     padding: 0 0rem;
     margin-left: 2rem;
+}
+
+@media (max-width:991px) {
+   .timelineContainer{
+    margin-left: 21rem;
+   }
+.Timeline h1 {
+    font-size: 45px;
+}
+.timelineItemContent:nth-child(odd) {
+    margin-left: -1rem;
+}
+.timelineItemContent:nth-child(odd):before {
+    left: calc(88.1% - 2px);
+    top: calc(-27% - 12px);
+    height: 95%;
+    width: 2px;
+}
+.timelineItemContent:nth-child(odd) .circle {
+    right: -1.27rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.timelineItemContent:nth-child(odd) h5, .timelineItemContent:nth-child(even) h5 {
+    font-size: 20px;
+    margin-top: -1rem;
+font-weight: 100;
+}
+.timelineItemContent:nth-child(odd) p{
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-left: 2rem;
+    margin-right: 5rem;
+}
+.timelineItemContent:nth-child(even) h5 {
+    font-size: 20px;
+    margin-left: 0rem;
+    text-align: start;
+    margin-right: -3rem;
+   
+    line-height: 28px;
+
+}
+.timelineContainer::after {
+    height: 75%;
+}
+.timelineItemContent:nth-child(even) p {
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 6rem;
+}
+.timelineItemContent:nth-child(even) .circle {
+    background-color: #B90B0B;
+    border: 6px solid #B90B0B;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(6% - 10px);
+    right: -1.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 100;
+}
+.timelineItemContent:nth-child(even):before {
+    background-color: #B90B0B;
+    content: '';
+    position: absolute;
+    left: calc(97.1% - 2px);
+    top: calc(1% - 12px);
+    width: 2px;
+    height: 28%;
+    transform: rotate(90deg);
+}
 }

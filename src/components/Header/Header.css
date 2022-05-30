@@ -7,6 +7,7 @@
 
 .Header {
     text-align: center;
+    margin-top: 16rem;
 }
 
 .Header span {
@@ -51,6 +52,114 @@
     margin-left: -45rem;
 }
 
+input,
+optgroup,
+select,
+textarea {
+    display: block;
+}
+
+.popleft {
+    background: #2D2D2D;
+    /* padding-top: 4.5rem; */
+    padding-left: 4rem;
+}
+
+.popup-heading h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.popForm label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #B3B3B3;
+}
+
+.popForm {
+    padding-top: 1.5rem;
+}
+
+.popForm input {
+    background: #B3B3B3;
+    opacity: 0.5;
+    border-radius: 30px;
+    width: 35rem;
+    height: 3.3rem;
+    margin-bottom: 1rem;
+    outline: 0;
+}
+.popright img{
+        height: 43rem;
+}
+textarea {
+    background: #B3B3B3;
+    border-radius: 30px;
+    outline: 0;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+}
+
+.Popup {
+    display: flex;
+    margin-top: -21.5rem;
+    width: 70rem;
+    margin-left: -8rem;
+    height: 43rem;
+}
+
+.popForm .submit {
+    background: #B90B0B;
+    border-radius: 45px;
+    font-family: 'Poppins';
+    border: 2px solid #B90B0B;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 10rem;
+    height: 3.5rem;
+    margin-left: 6rem;
+}
+
+.popForm .cancel {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    border-radius: 45px;
+    border: 5px solid #FFFFFF;
+    background-color: transparent;
+    width: 10rem;
+    margin-left: 3rem;
+    height: 3.5rem;
+}
+/* form {
+    animation: 1s Popup;
+  }
+  @keyframes Popup {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  } */
+#popup-2{
+    height: 0rem;
+    width: 52rem;
+    border-radius: 30px;
+}
+.popup-content{
+background: transparent !important;
+padding: 0px !important;
+ border: 1px solid transparent !important;
+}
 
 @media (max-width:991px) {
     .Header h1 {
@@ -61,4 +170,23 @@
     .Header p {
         font-size: 18px;
     }
+
+    .Header {
+        margin-top: 11rem;
+    }
+    .regBtn{
+        background-color: #B90B0B;
+        border: 4px solid #B90B0B;
+        font-size: 15px !important;
+        padding: 0px 28px;
+        margin-top: 1.5rem;
+
+    }
+   
+.Headerbg {
+    margin-top: 21rem;
+    margin-left: -3rem;
+    width: 10rem;
+    transform: rotate(65deg);
+}
 }

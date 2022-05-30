@@ -38,14 +38,16 @@
 
 @media (max-width:991px) {
     .Carousel {
-        background: #2D2D2D;
+        /* background: #2D2D2D; */
+        background: #B90B0B;
         margin-top: 7rem;
         margin-right: -2rem;
         height: 4rem;
+        margin-bottom: 24rem;
     }
 
     .Carousel div {
-        font-size: 18px;
+        font-size: 26px;
         line-height: 7rem;
         margin-top: -1.5rem;
     }

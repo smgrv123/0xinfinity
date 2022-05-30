@@ -2,6 +2,14 @@
 
 .Navbar {
   display: flex;
+  position: fixed;
+  z-index: 999;
+ 
+  width: 100%;
+  background: #000000;
+  /* height: 10rem; */
+  height: 10rem;
+    margin-top: -2.5rem;
 
 }
 
@@ -66,7 +74,9 @@ a:hover {
 
 
 }
-
+.sideNav{
+ margin-top: 2.5rem;
+}
 /* .sideNav li:hover, .sideNav li:focus {
     color: #B90B0B;
   } */
@@ -83,11 +93,22 @@ a:hover {
   } */
 
 @media (max-width:991px) {
+  .Navbar{
+    margin-top: -0.5rem;
+    height: 5rem;
+  }
   .navLogo img {
     width: 12rem;
     margin-left: -3rem;
     margin-top: -0.7rem;
   }
+.sideNav{
+  margin-top: 0.5rem;
+
+}
+.sideNav li{
+  margin-left: 1rem;
+}
 
   .SocialMedia {
     /* margin-left: auto; */
@@ -98,6 +119,7 @@ a:hover {
 
   .Twit {
     margin-left: 5.5rem;
+    
   }
 
   .Disc {
@@ -107,13 +129,19 @@ a:hover {
   .Disc svg {
     margin-top: -4.5rem;
     margin-left: 2rem;
+    fill: #5865F2;
   }
 
   .Twit svg,
   .Disc svg {
     width: 1.8rem;
   }
-
+.Twit svg{
+  position: relative;
+  fill: #55ACEE;
+  
+    top: 0.2rem;
+}
   .hamroute {
     margin-right: 2rem;
     height: 1.3rem;
@@ -135,9 +163,5 @@ a:hover {
     font-size: 18px;
   }
 
-  .regBtn {
-    padding: 5px 28px;
-    font-size: 19px;
-    margin-top: 1.5rem;
-  }
+
 }
