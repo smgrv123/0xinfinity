@@ -62,7 +62,9 @@ textarea {
 .popleft {
     background: #2D2D2D;
     /* padding-top: 4.5rem; */
-    padding-left: 4rem;
+    padding: 2rem 3rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .popup-heading h1 {
@@ -97,6 +99,8 @@ textarea {
 }
 .popright img{
         height: 43rem;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
 }
 textarea {
     background: #B3B3B3;

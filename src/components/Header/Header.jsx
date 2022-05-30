@@ -18,19 +18,19 @@ const useMousePosition = () => {
   return mousePosition
 }
 const Header = () => {
-
+var move;
 
   let bannerimg = document.querySelector('#banner_head');
   const { x, y } = useMousePosition();
   console.log(x, y);
   if (x > 0 && x < 550) {
-    bannerimg.style.transform = 'translateX(10rem)';
+    bannerimg.style.transform = 'translateX(2rem)';
     bannerimg.style.transition = '3s';
     bannerimg.style.animation = 'bounce 0.5s';
     // bannerimg.style.overflow="hidden";
   }
   else if (x > 765 && x < 1000) {
-    bannerimg.style.transform = 'translateX(-10rem)';
+    bannerimg.style.transform = 'translateX(-2rem)';
     bannerimg.style.transition = '3s';
     bannerimg.style.animation = 'bounce 0.5s';
     //   bannerimg.style.overflowX="hidden";
