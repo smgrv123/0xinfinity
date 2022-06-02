@@ -1,245 +1,235 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 .Timeline2 span {
-    color: #B90B0B;
+  color: #b90b0b;
 }
 
 .Timeline2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* min-height: 100vh; */
 }
 
 .timelineContainer2 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 40px 0;
 }
 
 .timelineContainer2::after {
-    position: absolute;
-    border-left: 6px dashed #2D2D2D;
-    content: '';
-    position: absolute;
-    left: calc(50% - 2px);
-    top: calc(-23% - 12px);
-    width: 4px;
-    height: 105%;
+  position: absolute;
+  border-left: 6px dashed #2d2d2d;
+  content: "";
+  position: absolute;
+  left: calc(50% - 2px);
+  top: calc(-23% - 12px);
+  width: 4px;
+  height: 105%;
 }
 
 .timelineItemContent2:nth-child(even):before {
-    background-color: #2D2D2D;
-    content: '';
-    position: absolute;
-    left: calc(1.1% - 2px);
-    top: calc(4% - 12px);
-    width: 6px;
-    height: 28%;
-    transform: rotate(90deg);
+  background-color: #2d2d2d;
+  content: "";
+  position: absolute;
+  left: calc(1.1% - 2px);
+  top: calc(4% - 12px);
+  width: 6px;
+  height: 28%;
+  transform: rotate(90deg);
 }
 
 .timelineItemContent2:nth-child(odd):before {
-    background-color: #2D2D2D;
-    content: '';
-    position: absolute;
-    left: calc(97% - 2px);
-    top: calc(2.5% - 12px);
-    width: 6px;
-    height: 27%;
-    transform: rotate(90deg);
+  background-color: #2d2d2d;
+  content: "";
+  position: absolute;
+  left: calc(97% - 2px);
+  top: calc(2.5% - 12px);
+  width: 6px;
+  height: 27%;
+  transform: rotate(90deg);
 }
 
 .timelineItemContent2:nth-child(even) .circle2 {
-    background: #2D2D2D;
-    border: 6px solid #2D2D2D;
-    border-radius: 50%;
-    position: absolute;
-    top: calc(12% - 10px);
-    right: 26.6rem;
-    width: 32px;
-    height: 32px;
-    z-index: 100;
+  background: #2d2d2d;
+  border: 6px solid #2d2d2d;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(12% - 10px);
+  right: 26.6rem;
+  width: 32px;
+  height: 32px;
+  z-index: 100;
 }
 
 .timelineItemContent2:nth-child(odd) .circle2 {
-    background: #2D2D2D;
-    border: 6px solid #2D2D2D;
-    border-radius: 50%;
-    position: absolute;
-    top: calc(10% - 10px);
-    right: -3.5rem;
-    width: 32px;
-    height: 32px;
-    z-index: 100;
+  background: #2d2d2d;
+  border: 6px solid #2d2d2d;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(10% - 10px);
+  right: -3.5rem;
+  width: 32px;
+  height: 32px;
+  z-index: 100;
 }
 
-
-
 .timelineItemContent2 {
-    display: flex;
-    flex-direction: column;
-    padding: 16px 26px;
-    position: relative;
-    width: 400px;
-    max-width: 70%;
-    margin: 15px 0;
-
+  display: flex;
+  flex-direction: column;
+  padding: 16px 26px;
+  position: relative;
+  width: 400px;
+  max-width: 70%;
+  margin: 15px 0;
 }
 
 .timelineItemContent2:nth-child(odd) {
-    margin-right: 30rem;
-    text-align: right;
-    align-items: flex-end;
+  margin-right: 30rem;
+  text-align: right;
+  align-items: flex-end;
 }
 
 .timelineItemContent2:nth-child(even) {
-    margin-left: 30rem;
-    text-align: left;
-    align-items: flex-start;
+  margin-left: 30rem;
+  text-align: left;
+  align-items: flex-start;
 }
 
 .timelineItemContent2:nth-child(odd) p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #2D2D2D;
-    margin-left: -2rem;
-    padding-left: -3rem;
-    margin-right: 2rem
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2d2d2d;
+  margin-left: -2rem;
+  padding-left: -3rem;
+  margin-right: 2rem;
 }
 
 .timelineItemContent2:nth-child(even) p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #2D2D2D;
-    padding-left: 2rem;
-    margin-right: -2rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2d2d2d;
+  padding-left: 2rem;
+  margin-right: -2rem;
 }
 
 .timelineItemContent2 p:hover {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .timelineItemContent2:nth-child(odd) h5 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 42px;
-    color: #FFFFFF;
-    padding: 0 2rem;
-    margin-left: -12rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+  padding: 0 2rem;
+  margin-left: -12rem;
 }
 
 .timelineItemContent2:nth-child(even) h5 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 42px;
-    color: #FFFFFF;
-    padding: 0 2rem;
-    margin-right: -10rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+  padding: 0 2rem;
+  margin-right: -10rem;
 }
 
-@media (max-width:991px) {
- 
-.timelineContainer2::after {
+@media (max-width: 500px) {
+  .timelineContainer2::after {
     top: calc(-18% - 12px);
     height: 96%;
-}
-.timelineItemContent2:nth-child(odd) p{
+  }
+  .timelineItemContent2:nth-child(odd) p {
     font-size: 10px;
     line-height: 15px;
-    color: #FFFFFF;
-}
-.timelineItemContent2:nth-child(odd):before {
+    color: #ffffff;
+  }
+  .timelineItemContent2:nth-child(odd):before {
     height: 30%;
     margin-left: -5rem;
     top: 0.5rem;
     width: 2px;
-
-
-}
-.timelineItemContent2:nth-child(even) {
+  }
+  .timelineItemContent2:nth-child(even) {
     margin-left: 29rem;
-
-}
-.timelineItemContent2:nth-child(odd) .circle2 {
+  }
+  .timelineItemContent2:nth-child(odd) .circle2 {
     top: calc(18% - 10px);
     left: 20.7rem;
     height: 1.5rem;
     width: 1.5re;
     width: 1.5rem;
-}
-.timelineItemContent2:nth-child(odd) h5, .timelineItemContent2:nth-child(even) h5 {
+  }
+  .timelineItemContent2:nth-child(odd) h5,
+  .timelineItemContent2:nth-child(even) h5 {
     font-size: 20px;
-}
-.timelineItemContent2:nth-child(even):before {
+  }
+  .timelineItemContent2:nth-child(even):before {
     left: calc(91.1% - 2px);
     top: calc(-5% - 12px);
     height: 48%;
     width: 2px;
-
-}
-.timelineItemContent2:nth-child(even) .circle2 {
+  }
+  .timelineItemContent2:nth-child(even) .circle2 {
     right: -1.2rem;
     height: 1.5rem;
     width: 1.5rem;
-}
-.timelineContainer2{
-    margin-top: -12rem;
-}
-.timelineContainer2::after {
+  }
+  .timelineContainer2 {
+    margin-top: -20%;
+  }
+  .timelineContainer2::after {
     height: 91%;
     margin-left: 10.4rem;
     margin-top: 6rem;
-}
-.timelineItemContent2:nth-child(odd) h5 {
+  }
+  .timelineItemContent2:nth-child(odd) h5 {
     text-align: start;
     margin-right: 7.2rem;
     font-size: 20px;
     font-weight: 100;
     margin-left: -4rem;
-}
-.timelineItemContent2:nth-child(odd) p {
+  }
+  .timelineItemContent2:nth-child(odd) p {
     font-size: 10px;
     line-height: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     /* padding-left: 4.5rem; */
     text-align: start;
     margin-right: 4rem;
-    
-    padding-right: 5rem;
 
-}
-.timelineItemContent2:nth-child(even) h5 {
+    padding-right: 5rem;
+  }
+  .timelineItemContent2:nth-child(even) h5 {
     margin-right: -1rem;
     line-height: 35px;
     font-weight: 100;
-}
-.timelineItemContent2:nth-child(odd) {
+  }
+  .timelineItemContent2:nth-child(odd) {
     margin-right: 30rem;
     text-align: right;
     align-items: flex-end;
     margin-left: 33rem;
-}
+  }
 
-
-
-.timelineItemContent2:nth-child(even) p {
+  .timelineItemContent2:nth-child(even) p {
     font-size: 10px;
     line-height: 15px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-left: 2rem;
     margin-right: 4rem;
-}
+  }
 }

@@ -1,25 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 .Navbar {
   display: flex;
-  position: fixed;
+  position: absolute;
   z-index: 999;
- 
   width: 100%;
   background: #000000;
   /* height: 10rem; */
   height: 10rem;
-    margin-top: -2.5rem;
-
+  margin-top: -2.5rem;
+  top:0;
 }
 
 a {
   text-decoration: none;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
 a:hover {
-  color: #B90B0B;
+  color: #b90b0b;
 }
 
 .hamroute {
@@ -41,41 +40,39 @@ a:hover {
 }
 
 .Disc svg:hover {
-  fill: #5865F2;
+  fill: #5865f2;
 }
 
 .Twit svg:hover {
-  fill: #55ACEE;
+  fill: #55acee;
 }
 
 .sideNav li {
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 50px;
-  color: #B3B3B3;
+  color: #b3b3b3;
   cursor: pointer;
 }
 
 .sideNav {
-  background: #2D2D2D;
+  background: #2d2d2d;
   width: 25rem;
   height: 100vh;
   position: absolute;
   right: 0rem;
   transform: translateX(0rem);
-  transition: transform 0.5s
+  transition: transform 0.5s;
 }
 
 .sideNav ul {
   padding: 3rem 5rem;
-
-
 }
-.sideNav{
- margin-top: 2.5rem;
+.sideNav {
+  margin-top: 2.5rem;
 }
 /* .sideNav li:hover, .sideNav li:focus {
     color: #B90B0B;
@@ -92,8 +89,8 @@ a:hover {
     transition: opacity .5s;
   } */
 
-@media (max-width:991px) {
-  .Navbar{
+@media (max-width: 991px) {
+  .Navbar {
     margin-top: -0.5rem;
     height: 5rem;
   }
@@ -102,13 +99,12 @@ a:hover {
     margin-left: -3rem;
     margin-top: -0.7rem;
   }
-.sideNav{
-  margin-top: 0.5rem;
-
-}
-.sideNav li{
-  margin-left: 1rem;
-}
+  .sideNav {
+    margin-top: 0.5rem;
+  }
+  .sideNav li {
+    margin-left: 1rem;
+  }
 
   .SocialMedia {
     /* margin-left: auto; */
@@ -119,7 +115,6 @@ a:hover {
 
   .Twit {
     margin-left: 5.5rem;
-    
   }
 
   .Disc {
@@ -129,19 +124,19 @@ a:hover {
   .Disc svg {
     margin-top: -4.5rem;
     margin-left: 2rem;
-    fill: #5865F2;
+    fill: #5865f2;
   }
 
   .Twit svg,
   .Disc svg {
     width: 1.8rem;
   }
-.Twit svg{
-  position: relative;
-  fill: #55ACEE;
-  
+  .Twit svg {
+    position: relative;
+    fill: #55acee;
+
     top: 0.2rem;
-}
+  }
   .hamroute {
     margin-right: 2rem;
     height: 1.3rem;
@@ -162,6 +157,4 @@ a:hover {
   .sideNav li {
     font-size: 18px;
   }
-
-
 }
