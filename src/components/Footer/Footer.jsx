@@ -7,7 +7,7 @@ const Footer = () => {
         <footer id='cont'>
             <div className="footer">
                 <div className="footerCont">
-                    <p>LOVED OUR WORK?</p>
+                    <p>WANT TO WORK WITH US?</p>
                     <h1>get in t<span>o</span>uch</h1>
                     <br />
                     <a href="mailto:team@0xinfinitylabs.com">team@0xinfinitylabs.com</a>

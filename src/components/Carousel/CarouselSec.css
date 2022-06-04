@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
 .Carousel div {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -7,8 +6,6 @@
     font-size: 58px;
     line-height: 8rem;
     color: #000000;
-
-
 }
 
 .Carousel {
@@ -35,7 +32,36 @@
     user-select: none;
 }
 
-
+li:nth-child(1){
+    width: 400px !important;
+}
+li:nth-child(2){
+    width: 350px !important;
+}
+li:nth-child(3){
+    width: 270px !important;
+}
+li:nth-child(4){
+    width: 280px !important;
+}
+li:nth-child(5){
+    width: 430px !important;
+}
+li:nth-child(6){
+    width: 350px !important;
+}
+li:nth-child(7){
+    width: 250px !important;
+}
+li:nth-child(8){
+    width: 320px !important;
+}
+li:nth-child(9){
+    width: 440px !important;
+}
+li:nth-child(10){
+    width: 440px !important;
+}
 @media (max-width:991px) {
     .Carousel {
         /* background: #2D2D2D; */
@@ -50,5 +76,36 @@
         font-size: 26px;
         line-height: 7rem;
         margin-top: -1.5rem;
+    }
+
+    li:nth-child(1){
+        width: 170px !important;
+    }
+    li:nth-child(2){
+        width: 150px !important;
+    }
+    li:nth-child(3){
+        width: 120px !important;
+    }
+    li:nth-child(4){
+        width: 120px !important;
+    }
+    li:nth-child(5){
+        width: 180px !important;
+    }
+    li:nth-child(6){
+        width: 150px !important;
+    }
+    li:nth-child(7){
+        width: 110px !important;
+    }
+    li:nth-child(8){
+        width: 120px !important;
+    }
+    li:nth-child(9){
+        width: 170px !important;
+    }
+    li:nth-child(10){
+        width: 160px !important;
     }
 }

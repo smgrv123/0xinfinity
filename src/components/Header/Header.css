@@ -63,8 +63,11 @@ textarea {
     background: #2D2D2D;
     /* padding-top: 4.5rem; */
     padding: 2rem 3rem;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    border-radius: 30px;
+    width: 64rem;
+
 }
 
 .popup-heading h1 {
@@ -83,25 +86,37 @@ textarea {
     line-height: 30px;
     color: #B3B3B3;
 }
-
+#files{
+    visibility: hidden;
+}
+.fileContainer{
+    height: 6rem;
+}
 .popForm {
     padding-top: 1.5rem;
 }
-
+#labelFile{
+    background: #B3B3B3;
+    padding: 1rem 21.8rem;
+    border-radius: 30px;
+    opacity: 0.5;
+    color: #2D2D2D;
+    padding-right: 21.8rem;
+}
 .popForm input {
     background: #B3B3B3;
     opacity: 0.5;
     border-radius: 30px;
-    width: 35rem;
+    width: 54rem;
     height: 3.3rem;
     margin-bottom: 1rem;
     outline: 0;
 }
-.popright img{
+/* .popright img{
         height: 43rem;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
-}
+} */
 textarea {
     background: #B3B3B3;
     border-radius: 30px;
@@ -114,10 +129,24 @@ textarea {
     display: flex;
     margin-top: -21.5rem;
     width: 70rem;
-    margin-left: -8rem;
+    margin-left: -6rem;
     height: 43rem;
 }
+.popup-heading{
+    display: flex;
+}
+.popup-heading button{
+    color: #FFFFFF;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+}
 
+.cross{
+    margin-left: auto;
+}
 .popForm .submit {
     background: #B90B0B;
     border-radius: 45px;
@@ -128,9 +157,11 @@ textarea {
     color: #FFFFFF;
     width: 10rem;
     height: 3.5rem;
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
 }
-
+.submission{
+    text-align: center;
+}
 .popForm .cancel {
     font-family: 'Poppins';
     font-weight: 600;
