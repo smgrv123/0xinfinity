@@ -12,7 +12,6 @@ import CarouselSec from './components/Carousel/CarouselSec';
 // import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 function App() {
   return (
-
     <main>
       <Navbar />
       <Header />
@@ -30,4 +29,5 @@ function App() {
  
   );
 }
+
 export default App;

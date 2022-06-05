@@ -1,22 +1,30 @@
-import React, { useEffect } from 'react'
-import './Header.css'
-import Studio from '../../assets/Studio-Project 2 - Copy.png'
+import React, { useEffect, useState } from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 // import PopImg from '../../assets/formimg.png';
+
+import "./Header.css";
+import Studio from "../../assets/Studio-Project 2 - Copy.png";
+// import PopImg from "../../assets/formimg.png";
+// import Modal from "../Modal/Modal";
+// import { isVisible } from "@testing-library/user-event/dist/utils";
+
 const useMousePosition = () => {
-  const [mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 })
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
   useEffect(() => {
-    const updateMousePosition = event => {
-      setMousePosition({ x: event.clientX, y: event.clientY })
+    const updateMousePosition = (event) => {
+      setMousePosition({ x: event.clientX, y: event.clientY });
+    };
 
-    }
-    window.addEventListener('mousemove', updateMousePosition);
-    return () => window.removeEventListener('mousemove', updateMousePosition)
-  }, [])
+    window.addEventListener("mousemove", updateMousePosition);
 
-  return mousePosition
-}
+    return () => window.removeEventListener("mousemove", updateMousePosition);
+  }, []);
+
+  return mousePosition;
+};
+
 const Header = () => {
 // var move;
   let bannerimg = document.querySelector('#banner_head');
@@ -83,6 +91,6 @@ const Header = () => {
       <img src={Studio} alt="" className='Headerbg' />
     </div>
   );
-}
+};
 
 export default Header;
