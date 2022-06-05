@@ -9,6 +9,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import ComingSoon from './components/Coming Soon/ComingSoon';
 import CarouselSec from './components/Carousel/CarouselSec';
+// import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 function App() {
   return (
 
@@ -24,6 +25,9 @@ function App() {
       <ComingSoon />
       <Footer />
     </main>
+    
+  
+ 
   );
 }
 export default App;
