@@ -159,52 +159,52 @@ a:hover {
   }
   .Popup {
     display: flex;
-    margin-top: -20.5rem;
+    margin-left: -5.8rem;
+    margin-top: 0.5rem;
     width: 4rem;
-    margin-left: 0.7rem;
     height: 43rem;
   }
   .popleft {
-    background: #2D2D2D;
+    background: #2d2d2d;
     /* padding-top: 4.5rem; */
     padding: 2rem 3rem;
     border-radius: 30px;
     width: 23rem;
     height: fit-content;
   }
-  .popForm label{
+  .popForm label {
     font-size: 12px;
   }
-  .popup-heading h1{
+  .popup-heading h1 {
     font-size: 22px;
   }
-  .cross{
+  .cross {
     display: none;
   }
-  .popForm{
+  .popForm {
     margin-left: -1rem;
   }
   .popForm input {
     width: 19rem;
     height: 2.3rem;
-}
-#labelFile {
-  background: #B3B3B3;
-  padding: 1rem 4.8rem;
-  border-radius: 30px;
-  opacity: 0.5;
-  color: #2D2D2D;
-  padding-right: 1.8rem;
-  width: 19rem;
-  font-size: 14px;
-}
-.popForm .cancel, .popForm .submit{
-  width: 7rem;
-  font-size: 16px;
-  height: 3rem;
-
-}
-  textarea{
+  }
+  #labelFile {
+    background: #b3b3b3;
+    padding: 1rem 4.8rem;
+    border-radius: 30px;
+    opacity: 0.5;
+    color: #2d2d2d;
+    padding-right: 1.8rem;
+    width: 19rem;
+    font-size: 14px;
+  }
+  .popForm .cancel,
+  .popForm .submit {
+    width: 7rem;
+    font-size: 16px;
+    height: 3rem;
+  }
+  textarea {
     width: 19rem;
   }
 }
@@ -221,95 +221,100 @@ a:hover {
   .Twit svg {
     fill: #55acee;
   }
-  .navLogo img{
+  .navLogo img {
     margin-left: -5rem;
   }
   .Header {
     margin-top: 14rem;
-}
-.Header h1{
-  font-size: 4rem;
-}
-.Header p{
-  font-size: 28px;
-}
-.regBtn {
-  font-size: 23px !important;
-  padding: 15px 50px;
-  margin-top: 1.5rem;
-}
-.Headerbg{
-  margin-top: 15rem;
-  margin-left: 6rem;
-  width: 16rem;
-}
-.abtHeader p, .goalheader p {
-  font-size: 20px;
-}
-.abtContent p, .goalContent p{
-  font-size: 20px;
-  line-height: 30px;
-}
-.abtHeader h1, .goalheader h1 {
-  font-size: 45px;
-  line-height: 30px;
-}
-.About{
-  padding-top: 8rem;
-}
-.FAQHeadings p {
-  font-size: 30px;
-}
-.FAQHeadings h1 {
-  font-size: 50px;
-}
-.FAQQuestions .QuestOne{
-  width: 32rem;
+  }
+  .Header h1 {
+    font-size: 4rem;
+  }
+  .Header p {
+    font-size: 28px;
+  }
+  .regBtn {
+    font-size: 23px !important;
+    padding: 15px 50px;
+    margin-top: 1.5rem;
+  }
+  .Headerbg {
+    margin-top: 15rem;
+    margin-left: 6rem;
+    width: 16rem;
+  }
+  .abtHeader p,
+  .goalheader p {
+    font-size: 20px;
+  }
+  .abtContent p,
+  .goalContent p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .abtHeader h1,
+  .goalheader h1 {
+    font-size: 45px;
+    line-height: 30px;
+  }
+  .About {
+    padding-top: 8rem;
+  }
+  .FAQHeadings p {
+    font-size: 30px;
+  }
+  .FAQHeadings h1 {
+    font-size: 50px;
+  }
+  .FAQQuestions .QuestOne {
+    width: 32rem;
     height: 4rem;
-}
-.QuestOne p {
-  font-size: 25px;
-}
-.AnsOne{
-  padding: 1rem 2rem;
-  width: 34rem;
-}
-.AnsOne p{
-  font-size: 18px;
-}
-.FAQQuestions{
-  padding: 3rem 5rem;
-}
-.Popup {
-  display: flex;
-  margin-top: -21.5rem;
-  width: 4rem;
-  margin-left: 2rem;
-  height: 43rem;
-}
-.popleft {
-  background: #2D2D2D;
-  /* padding-top: 4.5rem; */
-  padding: 2rem 3rem;
-  border-radius: 30px;
-  width: fit-content;
-  height: fit-content;
-}
-.cross{
-  display: none;
-}
-.popForm input{
-  width: 38rem;
-}
-#labelFile {
-  background: #B3B3B3;
-  padding: 1rem 12.8rem;
-  border-radius: 30px;
-  opacity: 0.5;
-  color: #2D2D2D;
-  padding-right: 13.8rem;
-}
-textarea{
-  width: 38rem;
-}
+  }
+  .QuestOne p {
+    font-size: 25px;
+  }
+  .AnsOne {
+    padding: 1rem 2rem;
+    width: 34rem;
+  }
+  .AnsOne p {
+    font-size: 18px;
+  }
+  .FAQQuestions {
+    padding: 3rem 5rem;
+  }
+  .Popup {
+    display: flex;
+
+    margin-left: -9rem;
+    margin-top: -17.5rem;
+
+    width: 4rem;
+    height: 43rem;
+  }
+  .popleft {
+    background: #2d2d2d;
+    /* padding-top: 4.5rem; */
+    padding: 2rem 3rem;
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .cross {
+    display: none;
+  }
+  .popForm input {
+    width: 38rem;
+  }
+  #labelFile {
+    background: #b3b3b3;
+    padding: 1rem 12.8rem;
+    border-radius: 30px;
+    opacity: 0.5;
+    color: #2d2d2d;
+    padding-right: 13.8rem;
+  }
+  textarea {
+    width: 38rem;
+  }
 }
