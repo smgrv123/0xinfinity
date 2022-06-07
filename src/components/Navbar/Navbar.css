@@ -2,7 +2,7 @@
 
 .Navbar {
   display: flex;
-  position: absolute;
+  position: fixed;
   z-index: 999;
   width: 100%;
   background: #000000;
