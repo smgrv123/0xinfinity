@@ -30,6 +30,7 @@ const CarouselSec = () => {
         arrows={false}
         autoPlay={false}
         shouldResetAutoplay={false}
+        infinite={true}
       >
         <div className='unselectable'>TAGLINE</div>
         <div className='unselectable'>TAGLINE</div>
