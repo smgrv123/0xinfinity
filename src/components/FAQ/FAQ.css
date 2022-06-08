@@ -75,6 +75,7 @@
 .QuestOne:hover {
     background-color: #B90B0B;
     transition: 0.5s;
+    border-radius: 45px;
 
 }
 

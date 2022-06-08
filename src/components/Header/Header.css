@@ -60,12 +60,14 @@ textarea {
 }
 
 .popleft {
-  background: #2d2d2d;
-  z-index: 10000;
-  padding-top: 4.5rem;
-  padding-left: 4rem;
-  border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    background: #2D2D2D;
+    /* padding-top: 4.5rem; */
+    padding: 2rem 3rem;
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    border-radius: 30px;
+    width: 64rem;
+
 }
 
 .popup-heading h1 {
@@ -84,31 +86,40 @@ textarea {
   line-height: 30px;
   color: #b3b3b3;
 }
-
+#files{
+    visibility: hidden;
+}
+.fileContainer{
+    height: 6rem;
+}
 .popForm {
   padding-top: 1.5rem;
   align-items: center;
   justify-content: center;
   text-align: left;
 }
-
+#labelFile{
+    background: #B3B3B3;
+    padding: 1rem 20.8rem;
+    border-radius: 30px;
+    opacity: 0.5;
+    color: #2D2D2D;
+    padding-right: 21.8rem;
+}
 .popForm input {
-  background: #b3b3b3;
-  opacity: 0.5;
-  border-radius: 30px;
-  width: 35rem;
-  height: 3.3rem;
-  margin-bottom: 1rem;
-  outline: 0;
+    background: #B3B3B3;
+    opacity: 0.5;
+    border-radius: 30px;
+    width: 54rem;
+    height: 3.3rem;
+    margin-bottom: 1rem;
+    outline: 0;
 }
-.popright {
-  z-index: 1000;
-}
-.popright img {
-  height: 43rem;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
+/* .popright img{
+        height: 43rem;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+} */
 textarea {
   background: #b3b3b3;
   border-radius: 30px;
@@ -118,25 +129,42 @@ textarea {
 }
 
 .Popup {
-  display: flex;
-  margin-top: -21.5rem;
-  width: 70rem;
-  justify-content: center;
+    display: flex;
+    margin-top: -21.5rem;
+    width: 70rem;
+    margin-left: -6rem;
+    height: 43rem;
+}
+.popup-heading{
+    display: flex;
+}
+.popup-heading button{
+    color: #FFFFFF;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
 }
 
+.cross{
+    margin-left: auto;
+}
 .popForm .submit {
-  background: #b90b0b;
-  border-radius: 45px;
-  font-family: "Poppins";
-  border: 2px solid #b90b0b;
-  font-weight: 600;
-  font-size: 24px;
-  color: #ffffff;
-  width: 10rem;
-  height: 3.5rem;
-  margin-left: 6rem;
+    background: #B90B0B;
+    border-radius: 45px;
+    font-family: 'Poppins';
+    border: 2px solid #B90B0B;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 10rem;
+    height: 3.5rem;
+    /* margin-left: 6rem; */
 }
-
+.submission{
+    text-align: center;
+}
 .popForm .cancel {
   font-family: "Poppins";
   font-weight: 600;
