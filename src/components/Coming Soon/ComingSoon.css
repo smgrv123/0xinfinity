@@ -32,33 +32,36 @@
 
 .ComingSoon img {
     padding-left: 2rem;
-    opacity: 0.45;
+    /* opacity: 0.45; */
 }
+
 @media (max-width:991px) {
-    .ComingSoon{
+    .ComingSoon {
         text-align: center;
     }
-.ComingSoon p {
-    font-size: 20px;
-    top: 0rem;
-    margin-top: 10rem;
-}
-.ComingSoon h1 {
-    font-size: 36px;
-    line-height: 40px;
 
-    margin-left: 1.8rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-    margin-top: -1rem;
+    .ComingSoon p {
+        font-size: 20px;
+        top: 0rem;
+        margin-top: 10rem;
+    }
 
-    position: initial;
+    .ComingSoon h1 {
+        font-size: 36px;
+        line-height: 40px;
 
-}
-.ComingSoon img {
-    padding-left: 0;
-    opacity: 1;
-    width: -webkit-fill-available;
-}
-}
+        margin-left: 1.8rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        margin-top: -1rem;
 
+        position: initial;
+
+    }
+
+    .ComingSoon img {
+        padding-left: 0;
+        opacity: 1;
+        width: -webkit-fill-available;
+    }
+}

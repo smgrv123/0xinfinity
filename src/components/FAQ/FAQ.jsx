@@ -1,7 +1,8 @@
 import "./FAQ.css";
+
 const FAQ = () => {
   return (
-    <div className="FAQ" id="faq">
+    <div className="FAQ">
       <div className="FAQHeadings">
         <p>FAQs</p>
         <h1>
@@ -12,10 +13,10 @@ const FAQ = () => {
       </div>
       <div className="FAQQuestions">
         <div className="SubFAQ">
-          <div className="QuestOne">
+          <div className="QuestOne" data-aos="zoom-in">
             <p>Who is it for?</p>
           </div>
-          <div className="AnsOne">
+          <div className="AnsOne" data-aos="zoom-in">
             <h1>Who is it for?</h1>
             <p>
               If you’re an artist, creator, or IP owner and have a unique
@@ -25,10 +26,10 @@ const FAQ = () => {
           </div>
         </div>
         <div className="SubFAQ">
-          <div className="QuestOne">
+          <div className="QuestOne" data-aos="zoom-in">
             <p>What service we will provide?</p>
           </div>
-          <div className="AnsOne">
+          <div className="AnsOne" data-aos="zoom-in">
             <h1>What service we will provide?</h1>
             <p>
               The whole package. From project management, smart marketing
@@ -39,10 +40,10 @@ const FAQ = () => {
           </div>
         </div>
         <div className="SubFAQ">
-          <div className="QuestOne">
+          <div className="QuestOne" data-aos="zoom-in">
             <p>How much do we charge?</p>
           </div>
-          <div className="AnsOne">
+          <div className="AnsOne" data-aos="zoom-in">
             <h1>How much do we charge?</h1>
             <p>
               It’s free* (No upfront charge). We will take a % of revenue
@@ -52,10 +53,10 @@ const FAQ = () => {
           </div>
         </div>
         <div className="SubFAQ">
-          <div className="QuestOne">
+          <div className="QuestOne" data-aos="zoom-in">
             <p>How do we select a project?</p>
           </div>
-          <div className="AnsOne">
+          <div className="AnsOne" data-aos="zoom-in">
             <h1>How do we select a project?</h1>
             <p>
               We wil focus on our efforts on one project at a time. Apply with

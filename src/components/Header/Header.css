@@ -8,6 +8,7 @@
 .Header {
   text-align: center;
   margin-top: 16rem;
+  height: 7rem;
 }
 
 .Header span {
@@ -60,12 +61,17 @@ textarea {
 }
 
 .popleft {
+  /* background: #2D2D2D;
+  padding: 2rem 3rem;
+  border-radius: 30px;
+  width: 64rem; */
   background: #2d2d2d;
   z-index: 10000;
   padding-top: 4.5rem;
   padding-left: 4rem;
   border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+
 }
 
 .popup-heading h1 {
@@ -85,6 +91,14 @@ textarea {
   color: #b3b3b3;
 }
 
+#files {
+  visibility: hidden;
+}
+
+.fileContainer {
+  height: 6rem;
+}
+
 .popForm {
   padding-top: 1.5rem;
   align-items: center;
@@ -92,23 +106,25 @@ textarea {
   text-align: left;
 }
 
+#labelFile {
+  background: #B3B3B3;
+  padding: 1rem 20.8rem;
+  border-radius: 30px;
+  opacity: 0.5;
+  color: #2D2D2D;
+  padding-right: 21.8rem;
+}
+
 .popForm input {
-  background: #b3b3b3;
+  background: #B3B3B3;
   opacity: 0.5;
   border-radius: 30px;
-  width: 35rem;
+  width: 54rem;
   height: 3.3rem;
   margin-bottom: 1rem;
   outline: 0;
 }
-.popright {
-  z-index: 1000;
-}
-.popright img {
-  height: 43rem;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
+
 textarea {
   background: #b3b3b3;
   border-radius: 30px;
@@ -121,20 +137,42 @@ textarea {
   display: flex;
   margin-top: -21.5rem;
   width: 70rem;
-  justify-content: center;
+  margin-left: -6rem;
+  height: 43rem;
+}
+
+.popup-heading {
+  display: flex;
+}
+
+.popup-heading button {
+  color: #FFFFFF;
+  font-size: 30px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.cross {
+  margin-left: auto;
 }
 
 .popForm .submit {
-  background: #b90b0b;
+  background: #B90B0B;
   border-radius: 45px;
-  font-family: "Poppins";
-  border: 2px solid #b90b0b;
+  font-family: 'Poppins';
+  border: 2px solid #B90B0B;
   font-weight: 600;
   font-size: 24px;
-  color: #ffffff;
+  color: #FFFFFF;
   width: 10rem;
   height: 3.5rem;
-  margin-left: 6rem;
+  /* margin-left: 6rem; */
+}
+
+.submission {
+  text-align: center;
 }
 
 .popForm .cancel {
@@ -149,27 +187,31 @@ textarea {
   margin-left: 3rem;
   height: 3.5rem;
 }
-/* form {
-    animation: 1s Popup;
-  }
-  @keyframes Popup {
-    from {
-      margin-left: 100%;
-    }
-    to {
-      margin-left: 0%;
-    }
-  } */
+
 #popup-2 {
   height: 0rem;
   width: 52rem;
   border-radius: 30px;
 }
+
 .popup-content {
   background: transparent !important;
   padding: 0px !important;
   border: 1px solid transparent !important;
 }
+
+#banner_p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* text-align: center; */
+  padding: 0 5rem;
+  color: #B3B3B3;
+}
+
+
 
 @media (max-width: 991px) {
   .Header h1 {
@@ -183,7 +225,9 @@ textarea {
 
   .Header {
     margin-top: 11rem;
+    height: 5rem;
   }
+
   .regBtn {
     background-color: #b90b0b;
     border: 4px solid #b90b0b;
@@ -197,11 +241,19 @@ textarea {
     margin-left: -3rem;
     width: 10rem;
     transform: rotate(65deg);
+    display: none;
+  }
+
+  #banner_p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 2rem 2rem;
   }
 }
+
 .popup {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}                                                                                                                    

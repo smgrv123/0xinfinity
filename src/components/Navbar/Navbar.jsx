@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [toggle]);
 
   return (
-    <nav className="Navbar" id="nav">
+    <nav className="Navbar" id="hea">
       <div className="navLogo" onClick={() => setToggle(false)}>
         <img src={Logo} alt="" />
       </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
             <div className="sideNav" ref={node} data-aos="fade-left">
               <ul>
                 <li>
-                  <a href="#nav" onClick={() => setToggle(false)}>
+                  <a href="#hea" onClick={() => setToggle(false)}>
                     Home
                   </a>
                 </li>

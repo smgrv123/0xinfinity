@@ -1,7 +1,7 @@
 import "./About.css";
 const About = () => {
   return (
-    <div className="About" id="ab">
+    <div className="About">
       <div className="abtHeader">
         <p>BEHIND OXINFINITY</p>
         <h1>
@@ -19,6 +19,7 @@ const About = () => {
             aiming to find such artists/creators and build NFT projects
             according to their vision.
           </p>
+          <div id="goal" />
         </div>
       </div>
     </div>

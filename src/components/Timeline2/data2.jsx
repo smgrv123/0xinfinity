@@ -1,19 +1,19 @@
 const data = [
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam tincidunt dictum dignissim aliquam. Sapien quam sapien quam interdum ac, lacus, nulla.',
-        title: 'VOTING PHASE 1 BEGINS'
+        text: 'Best applications will be presented to the Infinity Club during voting phase 1.',
+        title: 'VOTING'
     },
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam tincidunt dictum dignissim aliquam. Sapien quam sapien quam interdum ac, lacus, nulla.',
-        title: 'INFINITY CLUB JURY WILL SHARE THEIR THOUGHTS'
+        text: 'Finalists, mentors and guest jury will be invited to present their thoughts to the ‘Infinity Club’ during phase 2, where the winner will be selected.',
+        title: 'JURY'
     },
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam tincidunt dictum dignissim aliquam. Sapien quam sapien quam interdum ac, lacus, nulla.',
-        title: 'OXINFINITY LABS WILL START WORKING ON THE WINNING IDEA'
+        text: '0xInfinity Labs will build the winner idea/project, strategic partners and advisors will be brought on-board.',
+        title: 'THE WINNERS'
     },
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam tincidunt dictum dignissim aliquam. Sapien quam sapien quam interdum ac, lacus, nulla.',
-        title: 'RUN A CAMPAIGN'
+        text: 'Infinity members will be rewarded with a guarantee free mint + an allowlist spot.',
+        title: 'INFINITY CLUB'
     },
 ];
 

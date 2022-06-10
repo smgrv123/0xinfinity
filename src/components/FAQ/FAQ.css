@@ -3,7 +3,7 @@
 .FAQ {
     margin-top: 15rem;
     padding: 1rem 8rem;
-    padding-bottom: 25rem;
+    padding-bottom: 5rem;
 }
 
 .FAQHeadings span {
@@ -75,6 +75,7 @@
 .QuestOne:hover {
     background-color: #B90B0B;
     transition: 0.5s;
+    border-radius: 45px;
 
 }
 
@@ -86,28 +87,35 @@
 .SubFAQ {
     display: flex;
 }
-@media(max-width:991px){
-    .FAQ{
+
+@media(max-width:991px) {
+    .FAQ {
         padding: 0;
         margin-bottom: 5rem;
     }
-    .FAQHeadings{
+
+    .FAQHeadings {
         margin-left: 1.5rem;
     }
-    .FAQHeadings h1{
+
+    .FAQHeadings h1 {
         font-size: 36px;
 
     }
-    .FAQHeadings p{
+
+    .FAQHeadings p {
         font-size: 20px;
     }
-    .FAQQuestions{
+
+    .FAQQuestions {
         margin-top: 0;
     }
-    .SubFAQ{
+
+    .SubFAQ {
         display: block;
     }
-    .AnsOne{
+
+    .AnsOne {
         position: initial;
         margin-left: 0;
         display: block;
@@ -116,15 +124,19 @@
         width: 20rem;
         border-radius: 30px;
     }
-    .AnsOne h1{
+
+    .AnsOne h1 {
         display: none;
     }
-    .AnsOne p{
+
+    .AnsOne p {
         font-size: 12px;
     }
-    .QuestOne p{
+
+    .QuestOne p {
         font-size: 14px;
     }
+
     .FAQQuestions .QuestOne {
         padding: 2rem 2rem;
         cursor: pointer;
