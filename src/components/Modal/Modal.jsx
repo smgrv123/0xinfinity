@@ -36,7 +36,7 @@ const Modal = ({ setisVisible }) => {
             </label>
             <textarea
               rows="5"
-              cols="74"
+              cols="115"
               name="comment"
               value={bitAboutYourself}
               onChange={(e) => {
@@ -46,6 +46,11 @@ const Modal = ({ setisVisible }) => {
             {/* <input type="text" /> */}
             {/* <label htmlFor="">Attach your files here</label> */}
             {/* <input type="text" /> */}
+            <label>Attach your files here</label>                    <div className="fileContainer">
+                      <label for="files" id='labelFile'>Click to choose file...</label>
+                  <input type="file" id="files" style={{ visibility: "hidden" }} />
+                     </div>
+                     <div className="Btn">
             <button className="submit">Submit</button>
             <button
               className="cancel"
@@ -55,6 +60,7 @@ const Modal = ({ setisVisible }) => {
             >
               Cancel
             </button>
+            </div>
           </div>
         </div>
         {/* <div className="popright">

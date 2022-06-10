@@ -311,11 +311,28 @@
 
   .timelineItemContent2:nth-child(odd) p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
+    margin-left: 4rem;
+    /* padding-left: -3rem; */
+    padding-right: 0rem;
   }
 
   .timelineItemContent2:nth-child(even) p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
+  }
+  .timelineContainer2::after {
+    top: calc(-32.6% - 12px);
+    height: 115%;
+  } 
+  .timelineItemContent2:nth-child(even) p {
+    padding-left: 2rem;
+    margin-right: 2rem;
+  }
+  .timelineItemContent2:nth-child(odd):before {
+    height: 40%;
+  }
+  .timelineItemContent2:nth-child(odd) .circle2 {
+    top: calc(14% - 10px);
   }
 }

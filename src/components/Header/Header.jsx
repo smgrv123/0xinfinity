@@ -91,6 +91,7 @@ const Header = () => {
       <p>
         Emp<span>o</span>wering Creat<span>o</span>rs
       </p>
+      <p id="banner_p">We help artists, creators and IP owners turn their unique ideas for an NFT project into reality, from conceptualization to post launch support, all in one place!</p>
       <button
         className="regBtn"
         onClick={() => {
@@ -98,7 +99,7 @@ const Header = () => {
           setisVisible(true);
         }}
       >
-        Register
+        Let's Buidl
       </button>
       {isVisible ? (
         <div

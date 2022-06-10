@@ -300,11 +300,39 @@
 @media (min-width: 768px) and (max-width:991px) {
   .timelineItemContent:nth-child(odd) p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
   }
+  .timelineItemContent:nth-child(odd) p {
+    margin-right: 1rem;
+}
+
+.timelineItemContent:nth-child(odd):before {
+  top: calc(2% - 12px);
+  height: 32%;
+}
+.timelineItemContent:nth-child(1):before {
+  height: 56%;
+}
+.timelineItemContent:nth-child(odd) .circle {
+  top: calc(12% - 10px);
+}
+.timelineItemContent:nth-child(1) .circle {
+  top: calc(19% - 10px);
+}
 
   .timelineItemContent:nth-child(even) p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
+  }
+  .timelineItemContent:nth-child(even) p {
+    margin-left: 4rem;
+    /* padding-left: -3rem; */
+    padding-right: 0rem;
+  }
+  .timelineItemContent:nth-child(even):before {
+    height: 50%;
+  }
+  .timelineContainer::after {
+    height: 60%;
   }
 }

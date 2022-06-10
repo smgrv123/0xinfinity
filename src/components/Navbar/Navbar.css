@@ -180,8 +180,8 @@ a:hover {
 
   .Popup {
     display: flex;
-    margin-left: -5.8rem;
-    margin-top: 0.5rem;
+    margin-left: 0rem;
+    margin-top: -30.5rem;
     width: 4rem;
     height: 43rem;
   }
@@ -192,7 +192,8 @@ a:hover {
     padding: 2rem 3rem;
     border-radius: 30px;
     width: 23rem;
-    height: fit-content;
+    /* height: fit-content; */
+    height: 39.7rem;
   }
 
   .popForm label {
@@ -264,13 +265,13 @@ a:hover {
     margin-left: -5rem;
   }
 
-  .Header {
+  /* .Header {
     margin-top: 14rem;
-  }
+  } */
 
-  .Header h1 {
+  /* .Header h1 {
     font-size: 4rem;
-  }
+  } */
 
   .Header p {
     font-size: 28px;
@@ -339,7 +340,7 @@ a:hover {
     padding: 3rem 5rem;
   }
 
-  .Popup {
+  /* .Popup {
     display: flex;
 
     margin-left: -9rem;
@@ -351,7 +352,6 @@ a:hover {
 
   .popleft {
     background: #2d2d2d;
-    /* padding-top: 4.5rem; */
     padding: 2rem 3rem;
     border-radius: 30px;
     width: fit-content;
@@ -377,5 +377,5 @@ a:hover {
 
   textarea {
     width: 38rem;
-  }
+  } */
 }
