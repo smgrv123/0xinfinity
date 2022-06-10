@@ -29,7 +29,9 @@ const Footer = () => {
                     twitter.com/0xinfinity_labs</a>
                     </div>
                 </div> */}
-
+                {/* <div>
+               <p className='copyright'>&#169; 2022. All rights reserved by 0xInfinity Labs.</p>
+               </div> */}
             </div>
         </footer>
     );

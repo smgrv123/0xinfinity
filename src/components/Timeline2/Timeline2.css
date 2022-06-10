@@ -25,9 +25,9 @@
   content: "";
   position: absolute;
   left: calc(50% - 2px);
-  top: calc(-23% - 12px);
+  top: calc(-30.6% - 12px);
   width: 4px;
-  height: 105%;
+  height: 112%;
 }
 
 .timelineItemContent2:nth-child(even):before {
@@ -37,7 +37,7 @@
   left: calc(1.1% - 2px);
   top: calc(4% - 12px);
   width: 6px;
-  height: 28%;
+  height: 40%;
   transform: rotate(90deg);
 }
 
@@ -45,11 +45,16 @@
   background-color: #2d2d2d;
   content: "";
   position: absolute;
-  left: calc(97% - 2px);
+  left: calc(98% - 2px);
   top: calc(2.5% - 12px);
   width: 6px;
-  height: 27%;
+  height: 47%;
   transform: rotate(90deg);
+}
+
+.timelineItemContent2:nth-child(1):before {
+  left: calc(100% - 2px);
+  height: 56%;
 }
 
 .timelineItemContent2:nth-child(even) .circle2 {
@@ -57,8 +62,8 @@
   border: 6px solid #2d2d2d;
   border-radius: 50%;
   position: absolute;
-  top: calc(12% - 10px);
-  right: 26.6rem;
+  top: calc(14% - 10px);
+  right: 26.5rem;
   width: 32px;
   height: 32px;
   z-index: 100;
@@ -69,7 +74,7 @@
   border: 6px solid #2d2d2d;
   border-radius: 50%;
   position: absolute;
-  top: calc(10% - 10px);
+  top: calc(18% - 10px);
   right: -3.5rem;
   width: 32px;
   height: 32px;
@@ -105,7 +110,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #2d2d2d;
-  margin-left: -2rem;
+  margin-left: -12rem;
   padding-left: -3rem;
   margin-right: 2rem;
 }
@@ -118,7 +123,7 @@
   line-height: 30px;
   color: #2d2d2d;
   padding-left: 2rem;
-  margin-right: -2rem;
+  margin-right: -12rem;
 }
 
 .timelineItemContent2 p:hover {
@@ -147,77 +152,130 @@
   margin-right: -10rem;
 }
 
+.phase-2 h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  color: #B90B0B;
+  text-align: center;
+}
+
+.phase-2 p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #2D2D2D;
+  padding: 0 20rem;
+}
+
+.phase-2 {
+  margin-top: 3rem;
+}
+
+.phase-2 p:hover {
+  color: #ffffff;
+}
+
 @media (max-width: 500px) {
   .timelineContainer2::after {
     top: calc(-18% - 12px);
     height: 96%;
   }
+
   .timelineItemContent2:nth-child(odd) p {
     font-size: 10px;
     line-height: 15px;
     color: #ffffff;
   }
+
   .timelineItemContent2:nth-child(odd):before {
-    height: 30%;
-    margin-left: -5rem;
-    top: 0.5rem;
+    height: 57%;
+    margin-left: -6rem;
+    top: -0.3rem;
     width: 2px;
   }
+
+  .timelineItemContent2:nth-child(1)::before {
+    margin-left: -6.5rem;
+  }
+
   .timelineItemContent2:nth-child(even) {
     margin-left: 29rem;
   }
+
   .timelineItemContent2:nth-child(odd) .circle2 {
-    top: calc(18% - 10px);
+    top: calc(23% - 10px);
     left: 20.7rem;
     height: 1.5rem;
-    width: 1.5re;
     width: 1.5rem;
   }
+
   .timelineItemContent2:nth-child(odd) h5,
   .timelineItemContent2:nth-child(even) h5 {
     font-size: 20px;
   }
+
   .timelineItemContent2:nth-child(even):before {
     left: calc(91.1% - 2px);
     top: calc(-5% - 12px);
-    height: 48%;
+    height: 66%;
     width: 2px;
   }
+
   .timelineItemContent2:nth-child(even) .circle2 {
     right: -1.2rem;
     height: 1.5rem;
     width: 1.5rem;
+    top: 0.9rem;
   }
+
   .timelineContainer2 {
     margin-top: -20%;
   }
+
   .timelineContainer2::after {
-    height: 91%;
+    height: 98%;
     margin-left: 10.4rem;
-    margin-top: 6rem;
+    margin-top: 1.9rem;
   }
+
   .timelineItemContent2:nth-child(odd) h5 {
     text-align: start;
-    margin-right: 7.2rem;
+    /* margin-right: 7.2rem; */
+    margin-right: 17rem;
     font-size: 20px;
     font-weight: 100;
     margin-left: -4rem;
   }
+
+  .timelineItemContent2:nth-child(3) h5 {
+    margin-right: 13.5rem;
+  }
+
   .timelineItemContent2:nth-child(odd) p {
     font-size: 10px;
     line-height: 15px;
     color: #ffffff;
     /* padding-left: 4.5rem; */
     text-align: start;
-    margin-right: 4rem;
-
-    padding-right: 5rem;
+    /* margin-right: 4rem;
+    padding-right: 5rem; */
+    padding: 0 8rem;
+    margin-left: -10rem;
   }
+
   .timelineItemContent2:nth-child(even) h5 {
     margin-right: -1rem;
     line-height: 35px;
     font-weight: 100;
   }
+
   .timelineItemContent2:nth-child(odd) {
     margin-right: 30rem;
     text-align: right;
@@ -231,5 +289,33 @@
     color: #ffffff;
     padding-left: 2rem;
     margin-right: 4rem;
+  }
+
+  .phase-2 h1 {
+    font-size: 20px;
+  }
+
+  .phase-2 p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .phase-2 p {
+    color: white;
+    padding: 0 5rem;
+  }
+
+  .timelineItemContent2:nth-child(odd) p {
+    color: #ffffff;
+    font-size: 17px;
+  }
+
+  .timelineItemContent2:nth-child(even) p {
+    color: #ffffff;
+    font-size: 17px;
   }
 }

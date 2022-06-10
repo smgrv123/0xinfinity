@@ -39,6 +39,9 @@ a:hover {
   margin-right: 3rem;
 }
 
+/* .Twit svg, .Disc svg{
+  fill: transparent ;
+} */
 .Disc svg:hover {
   fill: #5865f2;
 }
@@ -71,9 +74,22 @@ a:hover {
 .sideNav ul {
   padding: 3rem 5rem;
 }
+
+.sideNav ul:nth-child(2) {
+  border-top: 2px solid #B3B3B3;
+  border-bottom: 2px solid #B3B3B3;
+  width: 10rem;
+  margin-left: 5rem;
+}
+
+.sideNav ul:nth-child(2) li {
+  margin-left: -5rem;
+}
+
 .sideNav {
   margin-top: 2.5rem;
 }
+
 /* .sideNav li:hover, .sideNav li:focus {
     color: #B90B0B;
   } */
@@ -94,14 +110,17 @@ a:hover {
     margin-top: -0.5rem;
     height: 5rem;
   }
+
   .navLogo img {
     width: 12rem;
     margin-left: -3rem;
     margin-top: -0.7rem;
   }
+
   .sideNav {
     margin-top: 0.5rem;
   }
+
   .sideNav li {
     margin-left: 1rem;
   }
@@ -131,12 +150,13 @@ a:hover {
   .Disc svg {
     width: 1.8rem;
   }
+
   .Twit svg {
     position: relative;
     fill: #55acee;
-
     top: 0.2rem;
   }
+
   .hamroute {
     margin-right: 2rem;
     height: 1.3rem;
@@ -157,6 +177,7 @@ a:hover {
   .sideNav li {
     font-size: 18px;
   }
+
   .Popup {
     display: flex;
     margin-left: -5.8rem;
@@ -164,6 +185,7 @@ a:hover {
     width: 4rem;
     height: 43rem;
   }
+
   .popleft {
     background: #2d2d2d;
     /* padding-top: 4.5rem; */
@@ -172,22 +194,28 @@ a:hover {
     width: 23rem;
     height: fit-content;
   }
+
   .popForm label {
     font-size: 12px;
   }
+
   .popup-heading h1 {
     font-size: 22px;
   }
+
   .cross {
     display: none;
   }
+
   .popForm {
     margin-left: -1rem;
   }
+
   .popForm input {
     width: 19rem;
     height: 2.3rem;
   }
+
   #labelFile {
     background: #b3b3b3;
     padding: 1rem 4.8rem;
@@ -198,22 +226,32 @@ a:hover {
     width: 19rem;
     font-size: 14px;
   }
+
   .popForm .cancel,
   .popForm .submit {
     width: 7rem;
     font-size: 16px;
     height: 3rem;
   }
+
   textarea {
     width: 19rem;
   }
+  .sideNav ul:nth-child(2) {
+    width: 7rem;
+    margin-left: 1.5rem;
+  }
+  .sideNav ul:nth-child(2) li {
+    margin-left: -0.5rem;
+}
 }
 
 /* ----------------TABLET VIEW------------------*/
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:991px) {
   .Disc svg {
     margin-top: 0rem;
   }
+
   .Disc svg {
     fill: #5865f2;
   }
@@ -221,68 +259,86 @@ a:hover {
   .Twit svg {
     fill: #55acee;
   }
+
   .navLogo img {
     margin-left: -5rem;
   }
+
   .Header {
     margin-top: 14rem;
   }
+
   .Header h1 {
     font-size: 4rem;
   }
+
   .Header p {
     font-size: 28px;
   }
+
   .regBtn {
     font-size: 23px !important;
     padding: 15px 50px;
     margin-top: 1.5rem;
   }
+
   .Headerbg {
     margin-top: 15rem;
     margin-left: 6rem;
     width: 16rem;
   }
+
   .abtHeader p,
   .goalheader p {
     font-size: 20px;
   }
+
   .abtContent p,
   .goalContent p {
     font-size: 20px;
     line-height: 30px;
   }
+
   .abtHeader h1,
   .goalheader h1 {
     font-size: 45px;
     line-height: 30px;
   }
+
   .About {
     padding-top: 8rem;
   }
+
   .FAQHeadings p {
     font-size: 30px;
   }
+
   .FAQHeadings h1 {
     font-size: 50px;
   }
+
   .FAQQuestions .QuestOne {
     width: 32rem;
     height: 4rem;
   }
+
   .QuestOne p {
     font-size: 25px;
   }
+
   .AnsOne {
     padding: 1rem 2rem;
     width: 34rem;
   }
+
   .AnsOne p {
     font-size: 18px;
   }
+
   .FAQQuestions {
     padding: 3rem 5rem;
   }
+
   .Popup {
     display: flex;
 
@@ -292,6 +348,7 @@ a:hover {
     width: 4rem;
     height: 43rem;
   }
+
   .popleft {
     background: #2d2d2d;
     /* padding-top: 4.5rem; */
@@ -300,12 +357,15 @@ a:hover {
     width: fit-content;
     height: fit-content;
   }
+
   .cross {
     display: none;
   }
+
   .popForm input {
     width: 38rem;
   }
+
   #labelFile {
     background: #b3b3b3;
     padding: 1rem 12.8rem;
@@ -314,6 +374,7 @@ a:hover {
     color: #2d2d2d;
     padding-right: 13.8rem;
   }
+
   textarea {
     width: 38rem;
   }

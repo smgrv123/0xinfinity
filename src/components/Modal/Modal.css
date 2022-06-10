@@ -62,10 +62,12 @@ textarea {
 .popleft {
   background: #2d2d2d;
   z-index: 10000;
-  padding-top: 4.5rem;
-  padding-left: 4rem;
-  border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+  /* padding-top: 4.5rem;
+  padding-left: 4rem; */
+  /* border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px; */
+  border-radius: 30px;
+  padding: 4rem 3rem;
 }
 
 .popup-heading h1 {
@@ -101,14 +103,17 @@ textarea {
   margin-bottom: 1rem;
   outline: 0;
 }
+
 .popright {
   z-index: 1000;
 }
+
 .popright img {
   height: 43rem;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+
 textarea {
   background: #b3b3b3;
   border-radius: 30px;
@@ -119,7 +124,7 @@ textarea {
 
 .Popup {
   display: flex;
-  margin-top: -21.5rem;
+  margin-top: -34rem;
   width: 70rem;
   justify-content: center;
 }
@@ -149,6 +154,7 @@ textarea {
   margin-left: 3rem;
   height: 3.5rem;
 }
+
 /* form {
     animation: 1s Popup;
   }
@@ -165,6 +171,7 @@ textarea {
   width: 52rem;
   border-radius: 30px;
 }
+
 .popup-content {
   background: transparent !important;
   padding: 0px !important;
@@ -184,6 +191,7 @@ textarea {
   .Header {
     margin-top: 11rem;
   }
+
   .regBtn {
     background-color: #b90b0b;
     border: 4px solid #b90b0b;
@@ -199,6 +207,7 @@ textarea {
     transform: rotate(65deg);
   }
 }
+
 .popup {
   margin: 0 auto;
   display: flex;

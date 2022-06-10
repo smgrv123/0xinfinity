@@ -57,9 +57,9 @@ const Modal = ({ setisVisible }) => {
             </button>
           </div>
         </div>
-        <div className="popright">
+        {/* <div className="popright">
           <img src={PopImg} alt="" />
-        </div>
+        </div> */}
       </div>
     </form>
   );

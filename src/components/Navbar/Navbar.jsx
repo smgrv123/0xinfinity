@@ -77,7 +77,7 @@ const Navbar = () => {
             <div className="sideNav" ref={node} data-aos="fade-left">
               <ul>
                 <li>
-                  <a href="#nav" onClick={() => setToggle(false)}>
+                  <a href="#hea" onClick={() => setToggle(false)}>
                     Home
                   </a>
                 </li>

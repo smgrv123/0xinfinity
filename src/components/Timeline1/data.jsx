@@ -1,16 +1,16 @@
 const data = [
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam tincidunt dictum dignissim aliquam. Sapien quam sapien quam interdum ac, lacus, nulla.',
+        text: 'Soft launch our discord server',
         title: 'DISCORD LAUNCH'
     },
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam tincidunt dictum dignissim aliquam. Sapien quam sapien quam interdum ac, lacus, nulla.',
-        title: 'START TAKING APPLICATIONS FROM ARTISTS/CREATORS'
+        text: 'Start taking project applications from artists and creators',
+        title: 'APPLICATIONS'
 
     },
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat aliquam tincidunt dictum dignissim aliquam. Sapien quam sapien quam interdum ac, lacus, nulla.',
-        title: 'INFINITY PASS LAUNCH'
+        text: 'Launch 500 ‘Infinity Pass’. Give members exclusive access to the ‘Infinity Club’. Along with other holder benefits. More info in our discord',
+        title: 'INFINITY PASS'
     },
 
 ];
