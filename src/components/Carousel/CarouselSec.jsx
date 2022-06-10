@@ -23,7 +23,7 @@ const responsive = {
 };
 const CarouselSec = () => {
   return (
-    <div className="Carousel">
+    <div className="Carousel" id="ab">
       <Carousel responsive={responsive}
         swipeable={true}
         draggable={true}

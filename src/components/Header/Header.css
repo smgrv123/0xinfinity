@@ -8,6 +8,7 @@
 .Header {
   text-align: center;
   margin-top: 16rem;
+  height: 7rem;
 }
 
 .Header span {
@@ -124,11 +125,6 @@ textarea {
   outline: 0;
 }
 
-/* .popright img{
-        height: 43rem;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-} */
 textarea {
   background: #b3b3b3;
   border-radius: 30px;
@@ -192,17 +188,6 @@ textarea {
   height: 3.5rem;
 }
 
-/* form {
-    animation: 1s Popup;
-  }
-  @keyframes Popup {
-    from {
-      margin-left: 100%;
-    }
-    to {
-      margin-left: 0%;
-    }
-  } */
 #popup-2 {
   height: 0rem;
   width: 52rem;
@@ -240,6 +225,7 @@ textarea {
 
   .Header {
     margin-top: 11rem;
+    height: 5rem;
   }
 
   .regBtn {

@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [toggle]);
 
   return (
-    <nav className="Navbar" id="nav">
+    <nav className="Navbar" id="hea">
       <div className="navLogo" onClick={() => setToggle(false)}>
         <img src={Logo} alt="" />
       </div>
