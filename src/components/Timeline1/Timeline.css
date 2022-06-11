@@ -197,7 +197,7 @@
 
 @media (max-width: 500px) {
   .timelineContainer {
-    margin-left: 21rem;
+    margin-left: 25rem;
   }
 
   .Timeline h1 {
@@ -209,20 +209,21 @@
   }
 
   .timelineItemContent:nth-child(odd):before {
-    left: calc(88.1% - 2px);
+    left: calc(79.1% - 2px);
     top: calc(-19% - 12px);
     height: 95%;
     width: 2px;
   }
 
   .timelineItemContent:nth-child(3):before {
-    left: calc(90% - 2px);
+    left: calc(79.1% - 2px);
     top: calc(-10% - 12px);
     height: 58%;
   }
 
   .timelineItemContent:nth-child(odd) .circle {
-    right: -1.27rem;
+    /* right: -1.27rem; */
+    right: 2.2rem;
     height: 1.5rem;
     width: 1.5rem;
     top: calc(13% - 10px);
@@ -257,6 +258,7 @@
 
   .timelineContainer::after {
     height: 62%;
+    left: calc(43.1% - 2px);
   }
 
   .timelineItemContent:nth-child(even) p {
@@ -274,7 +276,8 @@
     border-radius: 50%;
     position: absolute;
     top: calc(6% - 10px);
-    right: -1.3rem;
+    /* right: -1.3rem; */
+    right: 2.2rem;
     width: 1.5rem;
     height: 1.5rem;
     z-index: 100;
@@ -284,7 +287,7 @@
     background-color: #b90b0b;
     content: "";
     position: absolute;
-    left: calc(89.1% - 2px);
+    left: calc(79.1% - 2px);
     top: calc(-26% - 12px);
     width: 2px;
     height: 93%;

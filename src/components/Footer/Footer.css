@@ -58,11 +58,16 @@ footer {
 }
 
 .footer {
-    display: flex;
+    /* display: flex; */
+    display: contents;
     justify-content: space-around;
     padding-top: 5rem;
     /* padding-right: 8rem; */
     padding-right: 35rem;
+}
+.footerCont{
+    padding-top: 5rem;
+    padding-left: 10rem;
 }
 
 .socialMedia {
@@ -121,7 +126,8 @@ footer {
     font-size: 16px;
     line-height: 24px;
     color: #B3B3B3;
-    margin-top: 18rem;
+    margin-top: 5rem;
+    text-align: center;
 }
 
 @media (max-width:991px) {
@@ -137,7 +143,7 @@ footer {
     }
 
     .footerCont p {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .footerCont h1 {
@@ -148,5 +154,9 @@ footer {
     .footerCont a {
         font-size: 15px;
         line-height: 15px;
+    }
+    .footerCont {
+        padding-top: 4rem;
+        padding-left: 2rem;
     }
 }
