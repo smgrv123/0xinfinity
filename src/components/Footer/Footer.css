@@ -144,6 +144,7 @@ footer {
 
     .footerCont p {
         font-size: 17px;
+        line-height: 21px;
     }
 
     .footerCont h1 {
@@ -156,11 +157,11 @@ footer {
         line-height: 15px;
     }
     .footerCont {
-        padding-top: 4rem;
+        padding-top: 2.5rem;
         padding-left: 2rem;
     }
     .copyright {
         font-size: 13px;
-        margin-top: 1rem;
+        margin-top: 2.8rem;
     }    
 }
