@@ -159,4 +159,8 @@ footer {
         padding-top: 4rem;
         padding-left: 2rem;
     }
+    .copyright {
+        font-size: 13px;
+        margin-top: 1rem;
+    }    
 }
