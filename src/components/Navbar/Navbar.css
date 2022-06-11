@@ -84,6 +84,7 @@ a:hover {
 
 .sideNav ul:nth-child(2) li {
   margin-left: -5rem;
+  margin-right: -11rem;
 }
 
 .sideNav {
@@ -181,7 +182,8 @@ a:hover {
   .Popup {
     display: flex;
     margin-left: 0rem;
-    margin-top: -30.5rem;
+    /* margin-top: -30.5rem; */
+    margin-top: -24rem;
     width: 4rem;
     height: 43rem;
   }

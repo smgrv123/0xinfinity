@@ -196,13 +196,13 @@
 
   .timelineItemContent2:nth-child(odd):before {
     height: 57%;
-    margin-left: -6rem;
+    margin-left: -9rem;
     top: -0.3rem;
     width: 2px;
   }
 
   .timelineItemContent2:nth-child(1)::before {
-    margin-left: -6.5rem;
+    margin-left: -9.5rem;
   }
 
   .timelineItemContent2:nth-child(even) {
@@ -211,7 +211,7 @@
 
   .timelineItemContent2:nth-child(odd) .circle2 {
     top: calc(23% - 10px);
-    left: 20.7rem;
+    left: 17.3rem;
     height: 1.5rem;
     width: 1.5rem;
   }
@@ -222,14 +222,14 @@
   }
 
   .timelineItemContent2:nth-child(even):before {
-    left: calc(91.1% - 2px);
+    left: calc(80% - 2px);
     top: calc(-5% - 12px);
     height: 66%;
     width: 2px;
   }
 
   .timelineItemContent2:nth-child(even) .circle2 {
-    right: -1.2rem;
+    right: 2.3rem;
     height: 1.5rem;
     width: 1.5rem;
     top: 0.9rem;
@@ -237,12 +237,15 @@
 
   .timelineContainer2 {
     margin-top: -20%;
+    margin-left: 4rem;
   }
 
   .timelineContainer2::after {
     height: 98%;
-    margin-left: 10.4rem;
-    margin-top: 1.9rem;
+    /* margin-left: 10.4rem;
+    margin-top: 1.9rem; */
+    margin-left: 7rem;
+    margin-top: 1.8rem;
   }
 
   .timelineItemContent2:nth-child(odd) h5 {

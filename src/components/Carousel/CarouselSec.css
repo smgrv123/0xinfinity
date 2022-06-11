@@ -33,49 +33,61 @@
     -ms-user-select: none;
     user-select: none;
 }
-
-/* li:nth-child(1) {
-    width: 400px !important;
+.react-multi-carousel-item[data-index="0"] div{
+    padding-left: 6rem;
+}
+.react-multi-carousel-item[data-index="1"] div{
+    padding-left: 10rem;
+}
+.react-multi-carousel-item[data-index="2"] div{
+    padding-left: 12rem;
+}
+.react-multi-carousel-item[data-index="3"] div{
+    padding-left: 5rem;
+}
+.react-multi-carousel-item[data-index="4"] div{
+    padding-left: 3rem;
+}
+.react-multi-carousel-item[data-index="5"] div{
+    padding-left: 7rem;
+}
+.react-multi-carousel-item[data-index="6"] div{
+    padding-left: 10rem;
 }
 
-li:nth-child(2) {
-    width: 350px !important;
+.react-multi-carousel-item[data-index="8"] div{
+    padding-left: 7rem;
+}
+.react-multi-carousel-item[data-index="9"] div{
+    padding-left: 10rem;
+}
+.react-multi-carousel-item[data-index="10"] div{
+    padding-left: 5rem;
+}
+.react-multi-carousel-item[data-index="11"] div{
+    padding-left: 2rem;
+}
+.react-multi-carousel-item[data-index="12"] div{
+    padding-left: 8rem;
+}
+.react-multi-carousel-item[data-index="13"] div{
+    padding-left: 10rem;
+}
+.react-multi-carousel-item[data-index="14"] div{
+    padding-left: 3rem;
+}
+.react-multi-carousel-item[data-index="15"] div{
+    padding-left: 2rem;
+}
+.react-multi-carousel-item[data-index="16"] div{
+    padding-left: 7rem;
+}
+.react-multi-carousel-item[data-index="17"] div{
+    padding-left: 10rem;
 }
 
-li:nth-child(3) {
-    width: 270px !important;
-}
-
-li:nth-child(4) {
-    width: 280px !important;
-}
-
-li:nth-child(5) {
-    width: 430px !important;
-}
-
-li:nth-child(6) {
-    width: 350px !important;
-}
-
-li:nth-child(7) {
-    width: 250px !important;
-}
-
-li:nth-child(8) {
-    width: 320px !important;
-}
-
-li:nth-child(9) {
-    width: 440px !important;
-}
-
-li:nth-child(10) {
-    width: 440px !important;
-} */
-@media (max-width:991px) {
+   @media (max-width: 500px) {
     .Carousel {
-        /* background: #2D2D2D; */
         background: #B90B0B;
         margin-top: 7rem;
         margin-right: -2rem;
@@ -90,44 +102,121 @@ li:nth-child(10) {
         line-height: 7rem;
         margin-top: -1.5rem;
     }
-
-    li:nth-child(1) {
-        width: 170px !important;
+    .react-multi-carousel-item[data-index="0"] div{
+        padding-left: 2rem;
     }
-
-    li:nth-child(2) {
-        width: 150px !important;
+    .react-multi-carousel-item[data-index="1"] div{
+        padding-left: 0rem;
     }
-
-    li:nth-child(3) {
-        width: 120px !important;
+    .react-multi-carousel-item[data-index="2"] div{
+        padding-left: 0rem;
     }
-
-    li:nth-child(4) {
-        width: 120px !important;
+    .react-multi-carousel-item[data-index="3"] div{
+        padding-left: 2rem;
     }
-
-    li:nth-child(5) {
-        width: 180px !important;
+    .react-multi-carousel-item[data-index="4"] div{
+        padding-left: 4rem;
     }
-
-    li:nth-child(6) {
-        width: 150px !important;
+    .react-multi-carousel-item[data-index="5"] div{
+        padding-left: 0;
     }
-
-    li:nth-child(7) {
-        width: 110px !important;
+     .react-multi-carousel-item[data-index="6"] div{
+        padding-left: 3rem;
     }
-
-    li:nth-child(8) {
-        width: 120px !important;
+    .react-multi-carousel-item[data-index="7"] div{
+        padding-left: 4rem;
     }
-
-    li:nth-child(9) {
-        width: 170px !important;
+    .react-multi-carousel-item[data-index="8"] div{
+        padding-left: 1.5rem;
     }
+    .react-multi-carousel-item[data-index="9"] div{
+        padding-left: 1rem;
+    }
+    .react-multi-carousel-item[data-index="10"] div{
+        padding-left: 4rem;
+    }
+    .react-multi-carousel-item[data-index="11"] div{
+        padding-left: 5rem;
+    }
+    .react-multi-carousel-item[data-index="12"] div{
+        padding-left: 3rem;
+    }
+    .react-multi-carousel-item[data-index="13"] div{
+        padding-left: 4rem;
+    }
+    .react-multi-carousel-item[data-index="14"] div{
+        padding-left: 8rem;
+    }
+    .react-multi-carousel-item[data-index="15"] div{
+        padding-left: 10rem;
+    }   
+    .react-multi-carousel-item[data-index="16"] div{
+        padding-left: 7rem;
+    }
+    .react-multi-carousel-item[data-index="17"] div{
+        padding-left: 10rem;
+    }
+}
 
-    li:nth-child(10) {
-        width: 160px !important;
+@media (min-width: 768px) and (max-width:991px) {
+    .Carousel {
+        background: #B90B0B;
+    }
+    .Carousel div {
+        font-size: 40px;
+    }
+    .react-multi-carousel-item[data-index="0"] div{
+        padding-left: 2rem;
+    }
+    .react-multi-carousel-item[data-index="1"] div{
+        padding-left: 0rem;
+    }
+    .react-multi-carousel-item[data-index="2"] div{
+        padding-left: 0rem;
+    }
+    .react-multi-carousel-item[data-index="3"] div{
+        padding-left: 2rem;
+    }
+    .react-multi-carousel-item[data-index="4"] div{
+        padding-left: 4rem;
+    }
+    .react-multi-carousel-item[data-index="5"] div{
+        padding-left: 0;
+    }
+    .react-multi-carousel-item[data-index="6"] div{
+        padding-left: 3rem;
+    }
+    .react-multi-carousel-item[data-index="7"] div{
+        padding-left: 4rem;
+    }
+    .react-multi-carousel-item[data-index="8"] div{
+        padding-left: 1.5rem;
+    }
+    .react-multi-carousel-item[data-index="9"] div{
+        padding-left: 0rem;
+    }
+    .react-multi-carousel-item[data-index="10"] div{
+        padding-left: 4rem;
+    }
+    .react-multi-carousel-item[data-index="11"] div{
+        padding-left: 5rem;
+    }
+    .react-multi-carousel-item[data-index="12"] div{
+        padding-left: 3rem;
+    }
+    .react-multi-carousel-item[data-index="13"] div{
+        padding-left: 4rem;
+    }
+    .react-multi-carousel-item[data-index="14"] div{
+        padding-left: 8rem;
+    }
+    .react-multi-carousel-item[data-index="15"] div{
+        padding-left: 12rem;
+    }  
+    .react-multi-carousel-item[data-index="16"] div{
+        padding-left: 7rem;
+    }
+    .react-multi-carousel-item[data-index="17"] div{
+        padding-left: 10rem;
     }
 }
