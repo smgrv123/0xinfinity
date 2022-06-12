@@ -210,10 +210,33 @@ textarea {
   padding: 0 5rem;
   color: #B3B3B3;
 }
-
-
+.empower{
+  margin-top: 24rem;
+}
+#infinityHead{
+  height: 12rem;
+  left: 30rem;
+  top: 17rem;
+}
+.move{
+  position: absolute;
+}
 
 @media (max-width: 991px) {
+  .move{
+    position: initial;
+  }
+  #infinityHead{
+    height: 2.5rem;
+  }
+
+  .empower{
+    margin-top: 0rem;
+margin-bottom: 0rem;
+  }
+  #banner_p{
+    margin-top: 1rem;
+  }
   .Header h1 {
     color: #ffffff;
     font-size: 35px;
@@ -250,7 +273,17 @@ textarea {
     padding: 2rem 2rem;
   }
 }
-
+@media(min-width:768px) and (max-width:991px){
+  #infinityHead{
+    height: 2.5rem;
+  }
+  #banner_p{
+    margin-top: 1rem;
+  }
+  .Header{
+    margin-top: 12rem;
+  }
+}
 .popup {
   margin: 0 auto;
   display: flex;

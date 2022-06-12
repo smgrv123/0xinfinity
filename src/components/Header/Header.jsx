@@ -7,23 +7,35 @@ import Modal from "../Modal/Modal";
 
 const Header = () => {
   const [isVisible, setisVisible] = useState(false);
-
+useEffect(() => {
   $(window).mousemove(function (event) {
-    if ($(window).width() >= 1024) {
-      $("#banner_head").css({
+      $("#infinityHead").css({
         "margin-left": -(event.pageX * 0.05),
         "margin-top": -(event.pageY * 0.05),
         "margin-bottom": (event.pageY * 0.05),
       });
-    }
-  });
+    })
+},[]);
+
+  // console.log(window.screen.height)
+// window.addEventListener('mousemove', e => {
+//   let event1 = e.pageX*
+//   if(window.screen.width>=1024 && window.screen.height<=500){
+//     document.getElementById("infinityHead").style.marginLeft = -e.pageX*"0.05";
+//     document.getElementById("infinityHead").style.marginTop = -e.pageY*"0.05";
+//     document.getElementById("infinityHead").style.marginBottom = e.pageY*"0.05";
+      
+//     }
+//   }
+// )
+
 
   return (
     <div className="Header">
-      <h1 id="banner_head">
+      <h1 id="infinityHead" className="move">
         <span>0x</span>INFINITY LABS
       </h1>
-      <p>
+      <p className="empower"> 
         Emp<span>o</span>wering Creat<span>o</span>rs
       </p>
       <p id="banner_p">
