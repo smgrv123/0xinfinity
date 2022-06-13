@@ -1,167 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 .footerCont p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 42px;
-    letter-spacing: 0.2em;
-    color: #B90B0B;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  color: #b90b0b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 footer {
-    background: #2D2D2D;
-    height: 60vh;
-    width: 93.7vw;
-    /* margin-top: -1rem; */
-    margin-left: 2rem;
+  background: #2d2d2d;
+  height: 60vh;
+  width: 100vw;
+  /* margin-top: -1rem; */
+  /* margin-left: 2rem; */
 }
 
 .footerCont h1 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 75px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
 
 .footerCont span {
-    color: #B90B0B;
+  color: #b90b0b;
 }
 
 .footerCont a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 42px;
-    color: #B3B3B3;
-    text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #b3b3b3;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
 }
 
 .Discord a,
 .Twitter a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    /* line-height: 30px; */
-    color: #B3B3B3;
-    text-decoration: none;
-    position: relative;
-    top: -1rem;
-    left: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 30px; */
+  color: #b3b3b3;
+  text-decoration: none;
+  position: relative;
+  top: -1rem;
+  left: 1rem;
 }
 
 .footer {
-    /* display: flex; */
-    display: contents;
-    justify-content: space-around;
-    padding-top: 5rem;
-    /* padding-right: 8rem; */
-    padding-right: 35rem;
+  display: contents;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-right: 35rem;
 }
-.footerCont{
-    padding-top: 5rem;
-    padding-left: 10rem;
+.footerCont {
+  padding-top: 5rem;
 }
 
 .socialMedia {
-    padding-top: 4rem;
+  padding-top: 4rem;
 }
 
 .Discord {
-    margin-top: -2rem;
+  margin-top: -2rem;
 }
 
 .Twi,
 .Dis {
-    color: #B3B3B3;
-    width: 3rem;
-    height: 10rem;
-    cursor: pointer;
+  color: #b3b3b3;
+  width: 3rem;
+  height: 10rem;
+  cursor: pointer;
 }
 
 .Dis:hover,
 .Discord a:hover {
-    color: #5865F2;
+  color: #5865f2;
 }
 
 .Twi:hover,
 .Twitter a:hover {
-    color: #55ACEE;
+  color: #55acee;
 }
 
 .Twitter {
-    margin-top: -5rem;
+  margin-top: -5rem;
 }
 
 .Twitter svg,
 .Discord svg {
-    margin: 0;
-    margin-right: 1rem;
-    padding-bottom: 0rem;
+  margin: 0;
+  margin-right: 1rem;
+  padding-bottom: 0rem;
 }
 
 .Discord a:hover,
 .Discord svg:hover {
-    fill: #5865F2;
-    color: #5865F2;
+  fill: #5865f2;
+  color: #5865f2;
 }
 
 .Twitter a:hover,
 .Twitter svg:hover {
-    fill: #55ACEE;
-    color: #55ACEE;
+  fill: #55acee;
+  color: #55acee;
 }
 
 .copyright {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #B3B3B3;
-    margin-top: 5rem;
-    text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b3b3b3;
+  margin-top: 5rem;
+  text-align: center;
 }
 
-@media (max-width:991px) {
-    footer {
-        width: 100vw;
-        margin-left: 0rem;
-        height: 28vh;
-    }
+@media (max-width: 991px) {
+  footer {
+    width: 100vw;
+    margin-left: 0rem;
+    height: 28vh;
+  }
 
-    .footer {
-        padding-right: 5rem;
-        padding-top: 1rem;
-    }
+  .footer {
+    padding-right: 5rem;
+    padding-top: 1rem;
+  }
 
-    .footerCont p {
-        font-size: 17px;
-        line-height: 21px;
-    }
+  .footerCont p {
+    font-size: 17px;
+    line-height: 21px;
+  }
 
-    .footerCont h1 {
-        font-size: 37px;
-        line-height: 21px;
-    }
+  .footerCont h1 {
+    font-size: 37px;
+    line-height: 21px;
+  }
 
-    .footerCont a {
-        font-size: 15px;
-        line-height: 15px;
-    }
-    .footerCont {
-        padding-top: 2.5rem;
-        padding-left: 2rem;
-    }
-    .copyright {
-        font-size: 13px;
-        margin-top: 2.8rem;
-    }    
+  .footerCont a {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .footerCont {
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+  }
+  .copyright {
+    font-size: 13px;
+    margin-top: 2.8rem;
+  }
 }

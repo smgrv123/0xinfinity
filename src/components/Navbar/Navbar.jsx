@@ -45,7 +45,7 @@ const Navbar = () => {
         </span>
         <span className="Disc">
           <a
-            href="https://discord.gg/cS7SZEHx4J"
+            href="https://discord.gg/6sHNydZuQE"
             target="_blank"
             rel="noreferrer"
           >

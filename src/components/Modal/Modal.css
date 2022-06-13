@@ -44,6 +44,9 @@
   height: 3.3rem;
   margin-bottom: 1rem;
   outline: 0;
+  padding-left: 1.5rem;
+  color: #b90b0b;
+  font-size: 23px;
 }
 
 textarea {
@@ -51,12 +54,17 @@ textarea {
   border-radius: 30px;
   outline: 0;
   opacity: 0.5;
-  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  color: #b90b0b;
+  font-size: 23px;
+  width: 54rem;
+  height: 8rem;
 }
 
 .Popup {
   display: flex;
-  margin-top: -39rem;
+  margin-top: -41rem;
   width: 70rem;
   justify-content: center;
   margin-left: 1rem;

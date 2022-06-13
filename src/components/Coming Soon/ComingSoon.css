@@ -31,8 +31,9 @@
 }
 
 .ComingSoon img {
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     /* opacity: 0.45; */
+    width: 100%;
 }
 
 @media (max-width:991px) {
