@@ -43,7 +43,8 @@
   padding-left: 12rem;
 }
 .react-multi-carousel-item[data-index="3"] div {
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
+  margin-left: 0rem;
 }
 .react-multi-carousel-item[data-index="4"] div {
   padding-left: 3rem;
@@ -62,19 +63,21 @@
   padding-left: 10rem;
 }
 .react-multi-carousel-item[data-index="10"] div {
-  padding-left: 5rem;
+  padding-left: 8rem;
 }
 .react-multi-carousel-item[data-index="11"] div {
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
+  margin-left: -1rem;
 }
 .react-multi-carousel-item[data-index="12"] div {
   padding-left: 8rem;
 }
 .react-multi-carousel-item[data-index="13"] div {
-  padding-left: 10rem;
+  padding-left: 11rem;
 }
 .react-multi-carousel-item[data-index="14"] div {
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
+  margin-left: -1.5rem;
 }
 .react-multi-carousel-item[data-index="15"] div {
   padding-left: 2rem;
@@ -130,13 +133,14 @@
     padding-left: 1.5rem;
   }
   .react-multi-carousel-item[data-index="9"] div {
-    padding-left: 1rem;
+    /* padding-left: 0rem; */
+    margin-left: -10rem;
   }
   .react-multi-carousel-item[data-index="10"] div {
     padding-left: 4rem;
   }
   .react-multi-carousel-item[data-index="11"] div {
-    padding-left: 5rem;
+    padding-left: 9rem;
   }
   .react-multi-carousel-item[data-index="12"] div {
     padding-left: 3rem;
@@ -145,7 +149,7 @@
     padding-left: 4rem;
   }
   .react-multi-carousel-item[data-index="14"] div {
-    padding-left: 8rem;
+    padding-left: 10rem;
   }
   .react-multi-carousel-item[data-index="15"] div {
     padding-left: 10rem;
@@ -193,16 +197,18 @@
     padding-left: 1.5rem;
   }
   .react-multi-carousel-item[data-index="9"] div {
-    padding-left: 0rem;
+    /* padding-left: 0rem; */
+    margin-left: -15rem;
   }
   .react-multi-carousel-item[data-index="10"] div {
-    padding-left: 4rem;
+    padding-left: 0rem;
   }
   .react-multi-carousel-item[data-index="11"] div {
-    padding-left: 5rem;
+    padding-left: 11rem;
   }
   .react-multi-carousel-item[data-index="12"] div {
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
+    margin-left: -8rem;
   }
   .react-multi-carousel-item[data-index="13"] div {
     padding-left: 4rem;

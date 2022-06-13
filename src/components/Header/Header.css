@@ -206,8 +206,9 @@ textarea {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-  /* text-align: center; */
-  padding: 0 5rem;
+  text-align: center;
+  /* padding: 0 5rem; */
+  padding: 0 17.3rem;
   color: #B3B3B3;
 }
 .empower{
