@@ -8,11 +8,11 @@ const data = [
         title: 'JURY'
     },
     {
-        text: '0xInfinity Labs will build the winner idea/project, strategic partners and advisors will be brought on-board.',
+        text: '0xInfinity Labs will build the winning idea/project, strategic partners and advisors will be brought on-board.',
         title: 'THE WINNERS'
     },
     {
-        text: 'Infinity members will be rewarded with a guarantee free mint + an allowlist spot.',
+        text: 'Infinity Club members will be rewarded with a guaranteed free mint + an allowlist spot.',
         title: 'INFINITY CLUB'
     },
 ];

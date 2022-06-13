@@ -1,222 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 .Carousel div {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 58px;
-    line-height: 8rem;
-    color: #000000;
-    text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 8rem;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .Carousel {
-    background: #2D2D2D;
-    margin-top: 40rem;
-    margin-bottom: 8rem;
-    height: 8rem;
+  background: #2d2d2d;
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+  height: 8rem;
 }
 
 .Carousel:hover {
-    background: #B90B0B;
+  background: #b90b0b;
 }
 
 .unselectable {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.react-multi-carousel-item[data-index="0"] div{
-    padding-left: 6rem;
+.react-multi-carousel-item[data-index="0"] div {
+  padding-left: 6rem;
 }
-.react-multi-carousel-item[data-index="1"] div{
-    padding-left: 10rem;
+.react-multi-carousel-item[data-index="1"] div {
+  padding-left: 10rem;
 }
-.react-multi-carousel-item[data-index="2"] div{
-    padding-left: 12rem;
+.react-multi-carousel-item[data-index="2"] div {
+  padding-left: 12rem;
 }
-.react-multi-carousel-item[data-index="3"] div{
-    padding-left: 5rem;
+.react-multi-carousel-item[data-index="3"] div {
+  padding-left: 5rem;
 }
-.react-multi-carousel-item[data-index="4"] div{
-    padding-left: 3rem;
+.react-multi-carousel-item[data-index="4"] div {
+  padding-left: 3rem;
 }
-.react-multi-carousel-item[data-index="5"] div{
-    padding-left: 7rem;
+.react-multi-carousel-item[data-index="5"] div {
+  padding-left: 7rem;
 }
-.react-multi-carousel-item[data-index="6"] div{
-    padding-left: 10rem;
+.react-multi-carousel-item[data-index="6"] div {
+  padding-left: 10rem;
 }
 
-.react-multi-carousel-item[data-index="8"] div{
-    padding-left: 7rem;
+.react-multi-carousel-item[data-index="8"] div {
+  padding-left: 7rem;
 }
-.react-multi-carousel-item[data-index="9"] div{
-    padding-left: 10rem;
+.react-multi-carousel-item[data-index="9"] div {
+  padding-left: 10rem;
 }
-.react-multi-carousel-item[data-index="10"] div{
-    padding-left: 5rem;
+.react-multi-carousel-item[data-index="10"] div {
+  padding-left: 5rem;
 }
-.react-multi-carousel-item[data-index="11"] div{
+.react-multi-carousel-item[data-index="11"] div {
+  padding-left: 2rem;
+}
+.react-multi-carousel-item[data-index="12"] div {
+  padding-left: 8rem;
+}
+.react-multi-carousel-item[data-index="13"] div {
+  padding-left: 10rem;
+}
+.react-multi-carousel-item[data-index="14"] div {
+  padding-left: 3rem;
+}
+.react-multi-carousel-item[data-index="15"] div {
+  padding-left: 2rem;
+}
+.react-multi-carousel-item[data-index="16"] div {
+  padding-left: 7rem;
+}
+.react-multi-carousel-item[data-index="17"] div {
+  padding-left: 10rem;
+}
+
+@media (max-width: 500px) {
+  .Carousel {
+    background: #b90b0b;
+    margin-top: 7rem;
+    margin-right: -2rem;
+    height: 4rem;
+    /* margin-bottom: 24rem; */
+    margin-top: 23rem;
+    margin-bottom: 8rem;
+  }
+
+  .Carousel div {
+    font-size: 26px;
+    line-height: 7rem;
+    margin-top: -1.5rem;
+  }
+  .react-multi-carousel-item[data-index="0"] div {
     padding-left: 2rem;
-}
-.react-multi-carousel-item[data-index="12"] div{
+  }
+  .react-multi-carousel-item[data-index="1"] div {
+    padding-left: 0rem;
+  }
+  .react-multi-carousel-item[data-index="2"] div {
+    padding-left: 0rem;
+  }
+  .react-multi-carousel-item[data-index="3"] div {
+    padding-left: 2rem;
+  }
+  .react-multi-carousel-item[data-index="4"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="5"] div {
+    padding-left: 0;
+  }
+  .react-multi-carousel-item[data-index="6"] div {
+    padding-left: 3rem;
+  }
+  .react-multi-carousel-item[data-index="7"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="8"] div {
+    padding-left: 1.5rem;
+  }
+  .react-multi-carousel-item[data-index="9"] div {
+    padding-left: 1rem;
+  }
+  .react-multi-carousel-item[data-index="10"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="11"] div {
+    padding-left: 5rem;
+  }
+  .react-multi-carousel-item[data-index="12"] div {
+    padding-left: 3rem;
+  }
+  .react-multi-carousel-item[data-index="13"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="14"] div {
     padding-left: 8rem;
-}
-.react-multi-carousel-item[data-index="13"] div{
+  }
+  .react-multi-carousel-item[data-index="15"] div {
     padding-left: 10rem;
-}
-.react-multi-carousel-item[data-index="14"] div{
-    padding-left: 3rem;
-}
-.react-multi-carousel-item[data-index="15"] div{
-    padding-left: 2rem;
-}
-.react-multi-carousel-item[data-index="16"] div{
+  }
+  .react-multi-carousel-item[data-index="16"] div {
     padding-left: 7rem;
-}
-.react-multi-carousel-item[data-index="17"] div{
+  }
+  .react-multi-carousel-item[data-index="17"] div {
     padding-left: 10rem;
+  }
 }
 
-   @media (max-width: 500px) {
-    .Carousel {
-        background: #B90B0B;
-        margin-top: 7rem;
-        margin-right: -2rem;
-        height: 4rem;
-        /* margin-bottom: 24rem; */
-        margin-top: 23rem;
-        margin-bottom: 8rem;
-    }
-
-    .Carousel div {
-        font-size: 26px;
-        line-height: 7rem;
-        margin-top: -1.5rem;
-    }
-    .react-multi-carousel-item[data-index="0"] div{
-        padding-left: 2rem;
-    }
-    .react-multi-carousel-item[data-index="1"] div{
-        padding-left: 0rem;
-    }
-    .react-multi-carousel-item[data-index="2"] div{
-        padding-left: 0rem;
-    }
-    .react-multi-carousel-item[data-index="3"] div{
-        padding-left: 2rem;
-    }
-    .react-multi-carousel-item[data-index="4"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="5"] div{
-        padding-left: 0;
-    }
-     .react-multi-carousel-item[data-index="6"] div{
-        padding-left: 3rem;
-    }
-    .react-multi-carousel-item[data-index="7"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="8"] div{
-        padding-left: 1.5rem;
-    }
-    .react-multi-carousel-item[data-index="9"] div{
-        padding-left: 1rem;
-    }
-    .react-multi-carousel-item[data-index="10"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="11"] div{
-        padding-left: 5rem;
-    }
-    .react-multi-carousel-item[data-index="12"] div{
-        padding-left: 3rem;
-    }
-    .react-multi-carousel-item[data-index="13"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="14"] div{
-        padding-left: 8rem;
-    }
-    .react-multi-carousel-item[data-index="15"] div{
-        padding-left: 10rem;
-    }   
-    .react-multi-carousel-item[data-index="16"] div{
-        padding-left: 7rem;
-    }
-    .react-multi-carousel-item[data-index="17"] div{
-        padding-left: 10rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width:991px) {
-    .Carousel {
-        background: #B90B0B;
-    }
-    .Carousel div {
-        font-size: 40px;
-    }
-    .react-multi-carousel-item[data-index="0"] div{
-        padding-left: 2rem;
-    }
-    .react-multi-carousel-item[data-index="1"] div{
-        padding-left: 0rem;
-    }
-    .react-multi-carousel-item[data-index="2"] div{
-        padding-left: 0rem;
-    }
-    .react-multi-carousel-item[data-index="3"] div{
-        padding-left: 2rem;
-    }
-    .react-multi-carousel-item[data-index="4"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="5"] div{
-        padding-left: 0;
-    }
-    .react-multi-carousel-item[data-index="6"] div{
-        padding-left: 3rem;
-    }
-    .react-multi-carousel-item[data-index="7"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="8"] div{
-        padding-left: 1.5rem;
-    }
-    .react-multi-carousel-item[data-index="9"] div{
-        padding-left: 0rem;
-    }
-    .react-multi-carousel-item[data-index="10"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="11"] div{
-        padding-left: 5rem;
-    }
-    .react-multi-carousel-item[data-index="12"] div{
-        padding-left: 3rem;
-    }
-    .react-multi-carousel-item[data-index="13"] div{
-        padding-left: 4rem;
-    }
-    .react-multi-carousel-item[data-index="14"] div{
-        padding-left: 8rem;
-    }
-    .react-multi-carousel-item[data-index="15"] div{
-        padding-left: 12rem;
-    }  
-    .react-multi-carousel-item[data-index="16"] div{
-        padding-left: 7rem;
-    }
-    .react-multi-carousel-item[data-index="17"] div{
-        padding-left: 10rem;
-    }
+@media (min-width: 768px) and (max-width: 991px) {
+  .Carousel {
+    background: #b90b0b;
+  }
+  .Carousel div {
+    font-size: 40px;
+  }
+  .react-multi-carousel-item[data-index="0"] div {
+    padding-left: 2rem;
+  }
+  .react-multi-carousel-item[data-index="1"] div {
+    padding-left: 0rem;
+  }
+  .react-multi-carousel-item[data-index="2"] div {
+    padding-left: 0rem;
+  }
+  .react-multi-carousel-item[data-index="3"] div {
+    padding-left: 2rem;
+  }
+  .react-multi-carousel-item[data-index="4"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="5"] div {
+    padding-left: 0;
+  }
+  .react-multi-carousel-item[data-index="6"] div {
+    padding-left: 3rem;
+  }
+  .react-multi-carousel-item[data-index="7"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="8"] div {
+    padding-left: 1.5rem;
+  }
+  .react-multi-carousel-item[data-index="9"] div {
+    padding-left: 0rem;
+  }
+  .react-multi-carousel-item[data-index="10"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="11"] div {
+    padding-left: 5rem;
+  }
+  .react-multi-carousel-item[data-index="12"] div {
+    padding-left: 3rem;
+  }
+  .react-multi-carousel-item[data-index="13"] div {
+    padding-left: 4rem;
+  }
+  .react-multi-carousel-item[data-index="14"] div {
+    padding-left: 8rem;
+  }
+  .react-multi-carousel-item[data-index="15"] div {
+    padding-left: 12rem;
+  }
+  .react-multi-carousel-item[data-index="16"] div {
+    padding-left: 7rem;
+  }
+  .react-multi-carousel-item[data-index="17"] div {
+    padding-left: 10rem;
+  }
 }

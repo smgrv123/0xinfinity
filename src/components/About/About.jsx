@@ -15,7 +15,7 @@ const About = () => {
             many artists and creators who have unique ideas/art but don’t
             necessarily have the resources or technical knowledge to do anything
             about it. <br />
-            <br /> <span>0x</span>Infinity is a Web3 development start-up,
+            <br /> <span>0x</span>Infinity is a Web3 development Studio,
             aiming to find such artists/creators and build NFT projects
             according to their vision.
           </p>
