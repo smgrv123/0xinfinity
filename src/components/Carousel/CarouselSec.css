@@ -165,6 +165,9 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .Carousel {
     background: #b90b0b;
+    margin-top: 18rem;
+    margin-bottom: 8rem;
+    height: 8rem;
   }
   .Carousel div {
     font-size: 40px;

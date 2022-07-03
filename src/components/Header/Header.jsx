@@ -9,13 +9,15 @@ const Header = () => {
   const [isVisible, setisVisible] = useState(false);
 
   useEffect(() => {
-    $(window).mousemove(function (event) {
-      $("#infinityHead").css({
-        "margin-left": -(event.pageX * 0.05),
-        "margin-top": -(event.pageY * 0.05),
-        "margin-bottom": event.pageY * 0.05,
+    if ($(window).width() >= 1024) {
+      $(window).mousemove(function (event) {
+        $("#infinityHead").css({
+          "margin-left": -(event.pageX * 0.05),
+          "margin-top": -(event.pageY * 0.05),
+          "margin-bottom": event.pageY * 0.05,
+        });
       });
-    });
+    }
   }, []);
 
   return (

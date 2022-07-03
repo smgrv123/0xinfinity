@@ -223,6 +223,12 @@ textarea {
   position: absolute;
 }
 
+@media (max-width:1280px ) {
+  #infinityHead{
+    left:15rem
+  }
+}
+
 @media (max-width: 991px) {
   .move{
     position: initial;
