@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div className="Header">
       <h1 id="infinityHead" className="move">
-        <span>0x</span>INFINITY LABS
+        <span>0x123</span>INFINITY LABS
       </h1>
       <p className="empower">
         Emp<span>o</span>wering Creat<span>o</span>rs
